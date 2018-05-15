@@ -1,0 +1,3828 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<infracoes>
+  <Infracao>
+    <id>1</id>
+    <codigo>748-01</codigo>
+    <descricao>Aprovar proj edificacao polo atrativo transito s anuencia orgao entid transito</descricao>
+    <amparo>93 c c 95, par 4</amparo>
+    <infrator>Serv publico</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>2</id>
+    <codigo>748-02</codigo>
+    <descricao>Aprovar proj edificacao polo atrativo trans s estacion indicacao vias de acesso</descricao>
+    <amparo>93 c c 95, par 4</amparo>
+    <infrator>Serv publico</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>3</id>
+    <codigo>749-80</codigo>
+    <descricao>Nao sinalizar devida imed obstaculo a circul seguranca veic pedestre pista calcada</descricao>
+    <amparo>94</amparo>
+    <infrator>Serv publico</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>4</id>
+    <codigo>750-10</codigo>
+    <descricao>Utilizar ondulacao transversal sonorizador fora padrao criterio estab p Contran</descricao>
+    <amparo>94, par unico</amparo>
+    <infrator>Serv publico</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>5</id>
+    <codigo>751-01</codigo>
+    <descricao>Iniciar obra perturbe interrompa circulacao seguranca veic pedestres s permissao</descricao>
+    <amparo>95</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>6</id>
+    <codigo>751-02</codigo>
+    <descricao>Iniciar evento perturbe interrompa circulac seguranca veic pedestres s permissao</descricao>
+    <amparo>95</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>7</id>
+    <codigo>752-81</codigo>
+    <descricao>Nao sinalizar a execucao ou manutencao da obra</descricao>
+    <amparo>95, par 1</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>8</id>
+    <codigo>752-82</codigo>
+    <descricao>Nao sinalizar a execucao ou manutencao do evento</descricao>
+    <amparo>95, par 1</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>9</id>
+    <codigo>753-60</codigo>
+    <descricao>Nao avisar comunidade c 48h antec interdicao via indicando caminho alternativo</descricao>
+    <amparo>95, par 2</amparo>
+    <infrator>Serv publico</infrator>
+    <gravidade>---</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>10</id>
+    <codigo>501-00</codigo>
+    <descricao>Dirigir veiculo sem possuir CNH PPD ACC</descricao>
+    <amparo>162, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>11</id>
+    <codigo>502-91</codigo>
+    <descricao>Dirigir veiculo com CNH PPD ACC cassada</descricao>
+    <amparo>162, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>12</id>
+    <codigo>502-92</codigo>
+    <descricao>Dirigir veiculo com CNH PPD ACC com suspensao do direito de dirigir</descricao>
+    <amparo>162, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>13</id>
+    <codigo>503-71</codigo>
+    <descricao>Dirigir veiculo com CNH de categoria diferente da do veiculo</descricao>
+    <amparo>162, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 2X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>14</id>
+    <codigo>503-72</codigo>
+    <descricao>Dirigir veiculo com PPD de categoria diferente da do veiculo</descricao>
+    <amparo>162, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 2X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>15</id>
+    <codigo>504-50</codigo>
+    <descricao>Dirigir veiculo com validade de CNH PPD vencida ha mais de 30 dias</descricao>
+    <amparo>162, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>16</id>
+    <codigo>505-31</codigo>
+    <descricao>Dirigir veiculo sem usar lentes corretoras de visao</descricao>
+    <amparo>162, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>17</id>
+    <codigo>505-32</codigo>
+    <descricao>Dirigir veiculo sem usar aparelho auxiliar de audicao</descricao>
+    <amparo>162, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7- Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>18</id>
+    <codigo>505-33</codigo>
+    <descricao>Dirigir veiculo sem usar aparelho auxiliar de protese fisica</descricao>
+    <amparo>162, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7- Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>19</id>
+    <codigo>505-34</codigo>
+    <descricao>Dirigir veiculo s adaptacoes impostas na concessao renovacao licenca conduzir</descricao>
+    <amparo>162, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>20</id>
+    <codigo>506-10</codigo>
+    <descricao>Entregar veiculo a pessoa sem CNH PPD ACC</descricao>
+    <amparo>163 c c 162, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>21</id>
+    <codigo>507-01</codigo>
+    <descricao>Entregar veiculo a pessoa com CNH PPD ACC cassada</descricao>
+    <amparo>163 c c 162, II</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>22</id>
+    <codigo>507-02</codigo>
+    <descricao>Entregar veiculo a pessoa com CNH PPD ACC com susp. do direito de dirigir</descricao>
+    <amparo>163 c c 162, II</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>23</id>
+    <codigo>508-81</codigo>
+    <descricao>Entregar veiculo a pessoa com CNH de categoria diferente da do veiculo</descricao>
+    <amparo>163 c c 162, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 2X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>24</id>
+    <codigo>508-82</codigo>
+    <descricao>Entregar veiculo a pessoa com PPD de categoria diferente da do veiculo</descricao>
+    <amparo>163 c c 162, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 2X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>25</id>
+    <codigo>509-60</codigo>
+    <descricao>Entregar veiculo a pessoa com CNH PPD vencida ha mais de 30</descricao>
+    <amparo>163 c c 162, V</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>26</id>
+    <codigo>510-01</codigo>
+    <descricao>Entregar o veiculo a pessoa sem usar lentes corretoras de visao</descricao>
+    <amparo>163 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>27</id>
+    <codigo>510-02</codigo>
+    <descricao>Entregar o veiculo a pessoa sem usar aparelho auxiliar de audicao</descricao>
+    <amparo>163 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>28</id>
+    <codigo>510-03</codigo>
+    <descricao>Entregar o veiculo a pessoa sem aparelho de protese fisica</descricao>
+    <amparo>163 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>29</id>
+    <codigo>510-04</codigo>
+    <descricao>Entregar veic pessoa s adaptacoes impostas concessao renovacao licenca conduzir</descricao>
+    <amparo>163 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>30</id>
+    <codigo>511-80</codigo>
+    <descricao>Permitir posse conducao do veiculo a pessoa sem CNH PPD ACC</descricao>
+    <amparo>164 c c 162, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>31</id>
+    <codigo>512-61</codigo>
+    <descricao>Permitir posse conducao do veiculo a pessoa com CNH PPD ACC cassada</descricao>
+    <amparo>164 c c 162, II</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>32</id>
+    <codigo>512-62</codigo>
+    <descricao>Permitir posse conducao veic pessoa com CNH PPD ACC c susp. direito de dirigir</descricao>
+    <amparo>164 c c 162, II</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>33</id>
+    <codigo>513-41</codigo>
+    <descricao>Permitir posse conducao veic a pessoa com CNH categoria diferente da do veiculo</descricao>
+    <amparo>164 c c 162, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 2X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>34</id>
+    <codigo>513-42</codigo>
+    <descricao>Permitir posse conducao veic a pessoa com PPD categoria diferente da do veiculo</descricao>
+    <amparo>164 c c 162, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss 2X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>35</id>
+    <codigo>514-20</codigo>
+    <descricao>Permitir posse conducao do veic a pessoa com CNH PPD vencida ha mais de 30 dias</descricao>
+    <amparo>164 c c 162, V</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>36</id>
+    <codigo>515-01</codigo>
+    <descricao>Permitir posse conducao do veiculo a pessoa sem usar lentes corretoras de visao</descricao>
+    <amparo>164 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>37</id>
+    <codigo>515-02</codigo>
+    <descricao>Permitir posse conducao do veiculo a pessoa s usar aparelho auxiliar de audicao</descricao>
+    <amparo>164 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>38</id>
+    <codigo>515-03</codigo>
+    <descricao>Permitir posse conducao do veiculo a pessoa sem usar aparelho de protese fisica</descricao>
+    <amparo>164 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>39</id>
+    <codigo>515-04</codigo>
+    <descricao>Permitir posse cond veic s adaptacoes impostas concessao renovacao licenca cond</descricao>
+    <amparo>164 c c 162, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>40</id>
+    <codigo>516-91</codigo>
+    <descricao>Dirigir sob a influencia de alcool</descricao>
+    <amparo>165</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>41</id>
+    <codigo>516-92</codigo>
+    <descricao>Dirigir sob a influencia de qquer substancia psicoativa que deter. dependencia</descricao>
+    <amparo>165</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>42</id>
+    <codigo>517-70</codigo>
+    <descricao>Confiar entregar veic pess c ESTo fisico psiquico s condicoes dirigir segur</descricao>
+    <amparo>166</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>43</id>
+    <codigo>518-51</codigo>
+    <descricao>Deixar o condutor de usar o cinto seguranca</descricao>
+    <amparo>167</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>44</id>
+    <codigo>518-52</codigo>
+    <descricao>Deixar o passageiro de usar o cinto seguranca</descricao>
+    <amparo>167</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>45</id>
+    <codigo>519-30</codigo>
+    <descricao>Transportar crianca sem observancia das normas de seguranca estabelecidas p CTB</descricao>
+    <amparo>168</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>46</id>
+    <codigo>520-70</codigo>
+    <descricao>Dirigir sem atencao ou sem os cuidados indispensaveis a seguranca</descricao>
+    <amparo>169</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>47</id>
+    <codigo>521-51</codigo>
+    <descricao>Dirigir ameacando os pedestres que estejam atravessando a via publica</descricao>
+    <amparo>170</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>48</id>
+    <codigo>521-52</codigo>
+    <descricao>Dirigir ameacando os demais veiculos</descricao>
+    <amparo>170</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>49</id>
+    <codigo>522-31</codigo>
+    <descricao>Usar veiculo para arremessar sobre os pedestres agua ou detritos</descricao>
+    <amparo>171</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>50</id>
+    <codigo>522-32</codigo>
+    <descricao>Usar veiculo para arremessar sobre os veiculos agua ou detritos</descricao>
+    <amparo>171</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>51</id>
+    <codigo>523-11</codigo>
+    <descricao>Atirar do veiculo objetos ou substancias</descricao>
+    <amparo>172</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>52</id>
+    <codigo>523-12</codigo>
+    <descricao>Abandonar na via objetos ou substancias</descricao>
+    <amparo>172</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>53</id>
+    <codigo>524-00</codigo>
+    <descricao>Disputar corrida</descricao>
+    <amparo>173</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>54</id>
+    <codigo>525-81</codigo>
+    <descricao>Promover na via competicao sem permissao</descricao>
+    <amparo>174</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>55</id>
+    <codigo>525-82</codigo>
+    <descricao>Promover na via eventos organizados sem permissao</descricao>
+    <amparo>174</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>56</id>
+    <codigo>525-83</codigo>
+    <descricao>Promover na via exibicao e demonstracao de pericia em manobra de veiculo s perm</descricao>
+    <amparo>174</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>57</id>
+    <codigo>526-61</codigo>
+    <descricao>Participar na via como condutor em competicao sem permissao</descricao>
+    <amparo>174</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>58</id>
+    <codigo>526-62</codigo>
+    <descricao>Participar na via como condutor em eventos organizados sem permissao</descricao>
+    <amparo>174</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>59</id>
+    <codigo>526-63</codigo>
+    <descricao>Participar como condutor exib demonst pericia em manobra de veic s permissao</descricao>
+    <amparo>174</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>60</id>
+    <codigo>527-41</codigo>
+    <descricao>Utiliz veic demonst exibir manobra perigosa mediante arrancada brusca</descricao>
+    <amparo>175</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>61</id>
+    <codigo>527-42</codigo>
+    <descricao>Utiliz veic dem exibir manob perig med derrap frenag c desliz arrast pneus</descricao>
+    <amparo>175</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>62</id>
+    <codigo>528-20</codigo>
+    <descricao>Deixar o cond envolvido em acidente, de prestar ou providenciar socorro a vitima</descricao>
+    <amparo>176, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>63</id>
+    <codigo>529-00</codigo>
+    <descricao>Deixar o cond envolvido em acid, de adotar provid p evitar perigo p o transito</descricao>
+    <amparo>176, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>64</id>
+    <codigo>530-40</codigo>
+    <descricao>Deixar o cond envolvido em acidente, de preservar local p trab policia pericia</descricao>
+    <amparo>176, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>65</id>
+    <codigo>531-20</codigo>
+    <descricao>Deixar o cond envolvido em acid, de remover o veic local qdo determ polic agente</descricao>
+    <amparo>176, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>66</id>
+    <codigo>532-00</codigo>
+    <descricao>Deixar o cond envolvido em acid, de identificar-se policial e prestar inf p o BO</descricao>
+    <amparo>176, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>67</id>
+    <codigo>533-90</codigo>
+    <descricao>Deixar o cond de prestar socorro vitima acid de transito, qdo solicit p agente</descricao>
+    <amparo>177</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>68</id>
+    <codigo>534-70</codigo>
+    <descricao>Deixar o condutor envolvido em acidente s vitima, de remover o veiculo do local</descricao>
+    <amparo>178</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>69</id>
+    <codigo>535-50</codigo>
+    <descricao>Fazer ou deixar que se faca reparo em veic, em RODia e via transito rapido</descricao>
+    <amparo>179, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>70</id>
+    <codigo>536-30</codigo>
+    <descricao>Fazer deixar que se faca reparo em veic nas vias (q nao RODia transito rapido)</descricao>
+    <amparo>179, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>71</id>
+    <codigo>537-10</codigo>
+    <descricao>Ter seu veiculo imobilizado na via por falta de combustivel</descricao>
+    <amparo>180</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>72</id>
+    <codigo>538-00</codigo>
+    <descricao>Estacionar nas esquinas e a menos de 5m do alinhamento da via transversal</descricao>
+    <amparo>181, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>73</id>
+    <codigo>539-80</codigo>
+    <descricao>Estacionar afastado da guia da calcada (meio-fio) de 50cm a 1m</descricao>
+    <amparo>181, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>74</id>
+    <codigo>540-10</codigo>
+    <descricao>Estacionar afastado da guia da calcada (meio-fio) a mais de 1m</descricao>
+    <amparo>181, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>75</id>
+    <codigo>541-00</codigo>
+    <descricao>Estacionar em desacordo com as posicoes estabelecidas no CTB</descricao>
+    <amparo>181, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>76</id>
+    <codigo>542-81</codigo>
+    <descricao>Estacionar na pista de rolamento das estradas</descricao>
+    <amparo>181, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>77</id>
+    <codigo>542-82</codigo>
+    <descricao>Estacionar na pista de rolamento das RODias</descricao>
+    <amparo>181, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>78</id>
+    <codigo>542-83</codigo>
+    <descricao>Estacionar na pista de rolamento das vias de transito rapido</descricao>
+    <amparo>181, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>79</id>
+    <codigo>542-84</codigo>
+    <descricao>Estacionar na pista de rolamento das vias dotadas de acostamento</descricao>
+    <amparo>181, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>80</id>
+    <codigo>543-60</codigo>
+    <descricao>Estacionar junto sobre hidr de incendio, reg de agua tampa de poco visit gal sub</descricao>
+    <amparo>181, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>81</id>
+    <codigo>544-40</codigo>
+    <descricao>Estacionar nos acostamentos</descricao>
+    <amparo>181, VII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>82</id>
+    <codigo>545-21</codigo>
+    <descricao>Estacionar no passeio</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>83</id>
+    <codigo>545-22</codigo>
+    <descricao>Estacionar sobre faixa destinada a pedestre</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>84</id>
+    <codigo>545-23</codigo>
+    <descricao>Estacionar sobre ciclovia ou ciclofaixa</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>85</id>
+    <codigo>545-24</codigo>
+    <descricao>Estacionar nas ilhas ou refugios</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>86</id>
+    <codigo>545-25</codigo>
+    <descricao>Estacionar ao lado ou sobre canteiro central divisores de pista de rolamento</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>87</id>
+    <codigo>545-26</codigo>
+    <descricao>Estacionar ao lado ou sobre marcas de canalizacao</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>88</id>
+    <codigo>545-27</codigo>
+    <descricao>Estacionar ao lado ou sobre gramado ou jardim publico</descricao>
+    <amparo>181, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>89</id>
+    <codigo>546-00</codigo>
+    <descricao>Estacionar em guia de calcada rebaixada destinada a entrada saida de veiculos</descricao>
+    <amparo>181, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>90</id>
+    <codigo>547-90</codigo>
+    <descricao>Estacionar impedindo a movimentacao de outro veiculo</descricao>
+    <amparo>181, X</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>91</id>
+    <codigo>548-70</codigo>
+    <descricao>Estacionar ao lado de outro veiculo em fila dupla</descricao>
+    <amparo>181, XI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>92</id>
+    <codigo>549-50</codigo>
+    <descricao>Estacionar na area de cruzamento de vias</descricao>
+    <amparo>181, XII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>93</id>
+    <codigo>550-90</codigo>
+    <descricao>Estacionar no ponto de embarque desembarque de passageiros transporte coletivo</descricao>
+    <amparo>181, XIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>94</id>
+    <codigo>551-71</codigo>
+    <descricao>Estacionar nos viadutos</descricao>
+    <amparo>181, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>95</id>
+    <codigo>551-72</codigo>
+    <descricao>Estacionar nas pontes</descricao>
+    <amparo>181, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>96</id>
+    <codigo>551-73</codigo>
+    <descricao>Estacionar nos tuneis</descricao>
+    <amparo>181, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>97</id>
+    <codigo>556-80</codigo>
+    <descricao>Estacionar local horario de estacionamento e parada proibidos pela sinalizacao</descricao>
+    <amparo>181, XIX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>98</id>
+    <codigo>552-50</codigo>
+    <descricao>Estacionar na contramao de direcao</descricao>
+    <amparo>181, XV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>99</id>
+    <codigo>553-30</codigo>
+    <descricao>Estacionar aclive declive Nao freado e sem calco seguranca, PBT superior a 3500kg</descricao>
+    <amparo>181, XVI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>100</id>
+    <codigo>554-11</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao especificada pela sinalizacao</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>101</id>
+    <codigo>554-12</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao - estacionamento rotativo</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>102</id>
+    <codigo>554-13</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao - ponto ou vaga de taxi</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>103</id>
+    <codigo>554-14</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao - vaga de carga descarga</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>104</id>
+    <codigo>554-15</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao - vaga portador necessid especiais</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>105</id>
+    <codigo>554-16</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao - vaga idoso</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>106</id>
+    <codigo>554-17</codigo>
+    <descricao>Estacionar em desacordo com a regulamentacao - vaga de curta duracao</descricao>
+    <amparo>181, XVII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>107</id>
+    <codigo>555-00</codigo>
+    <descricao>Estacionar em local horario proibido especificamente pela sinalizacao</descricao>
+    <amparo>181, XVIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>108</id>
+    <codigo>762-51</codigo>
+    <descricao>Estacionar nas vagas reserv as pess c deficiencia, s credencial</descricao>
+    <amparo>181, XX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>109</id>
+    <codigo>762-52</codigo>
+    <descricao>Estacionar nas vagas reserv a idosos, s credencial</descricao>
+    <amparo>181, XX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>110</id>
+    <codigo>557-60</codigo>
+    <descricao>Parar nas esquinas e a menos 5m do bordo do alinhamento da via transversal</descricao>
+    <amparo>182, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>111</id>
+    <codigo>558-40</codigo>
+    <descricao>Parar afastado da guia da calcada (meio-fio) de 50cm a 1m</descricao>
+    <amparo>182, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>112</id>
+    <codigo>559-20</codigo>
+    <descricao>Parar afastado da guia da calcada (meio-fio) a mais de 1m</descricao>
+    <amparo>182, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>113</id>
+    <codigo>560-60</codigo>
+    <descricao>Parar em desacordo com as posicoes estabelecidas no CTB</descricao>
+    <amparo>182, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>114</id>
+    <codigo>561-41</codigo>
+    <descricao>Parar na pista de rolamento das estradas</descricao>
+    <amparo>182, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>115</id>
+    <codigo>561-42</codigo>
+    <descricao>Parar na pista de rolamento das RODias</descricao>
+    <amparo>182, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>116</id>
+    <codigo>561-43</codigo>
+    <descricao>Parar na pista de rolamento das vias de transito rapido</descricao>
+    <amparo>182, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>117</id>
+    <codigo>561-44</codigo>
+    <descricao>Parar na pista de rolamento das demais vias dotadas de acostamento</descricao>
+    <amparo>182, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>118</id>
+    <codigo>562-21</codigo>
+    <descricao>Parar no passeio</descricao>
+    <amparo>182, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>119</id>
+    <codigo>562-22</codigo>
+    <descricao>Parar sobre faixa destinada a pedestres</descricao>
+    <amparo>182, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>120</id>
+    <codigo>562-23</codigo>
+    <descricao>Parar nas ilhas ou refugios</descricao>
+    <amparo>182, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>121</id>
+    <codigo>562-24</codigo>
+    <descricao>Parar nos canteiros centrais divisores de pista de rolamento</descricao>
+    <amparo>182, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>122</id>
+    <codigo>562-25</codigo>
+    <descricao>Parar nas marcas de canalizacao</descricao>
+    <amparo>182, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>123</id>
+    <codigo>563-00</codigo>
+    <descricao>Parar na area de cruzamento de vias</descricao>
+    <amparo>182, VII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>124</id>
+    <codigo>564-91</codigo>
+    <descricao>Parar nos viadutos</descricao>
+    <amparo>182, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>125</id>
+    <codigo>564-92</codigo>
+    <descricao>Parar nas pontes</descricao>
+    <amparo>182, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>126</id>
+    <codigo>564-93</codigo>
+    <descricao>Parar nos tuneis</descricao>
+    <amparo>182, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>127</id>
+    <codigo>565-70</codigo>
+    <descricao>Parar na contramao de direcao</descricao>
+    <amparo>182, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>128</id>
+    <codigo>566-50</codigo>
+    <descricao>Parar em local horario proibidos especificamente pela sinalizacao</descricao>
+    <amparo>182, X</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>129</id>
+    <codigo>567-31</codigo>
+    <descricao>Parar sobre faixa de pedestres na mudanca de sinal luminoso</descricao>
+    <amparo>183</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>130</id>
+    <codigo>567-32</codigo>
+    <descricao>Parar sobre faixa de pedestres na mudanca de sinal luminoso (fisc eletronica)</descricao>
+    <amparo>183</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>131</id>
+    <codigo>568-10</codigo>
+    <descricao>Transitar na faixa pista da direita regul circulacao exclusiva determ veiculo</descricao>
+    <amparo>184, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>132</id>
+    <codigo>569-00</codigo>
+    <descricao>Transitar na faixa pista da esquerda regul circulacao exclusiva determ veiculo</descricao>
+    <amparo>184, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>133</id>
+    <codigo>758-70</codigo>
+    <descricao>Transitar na faixa ou via exclusiva regulam. p transp. publ. coletivo passag.</descricao>
+    <amparo>184, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7-Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>134</id>
+    <codigo>570-30</codigo>
+    <descricao>Deixar de conservar o veiculo na faixa a ele destinada pela sinalizacao de regul</descricao>
+    <amparo>185, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>135</id>
+    <codigo>571-10</codigo>
+    <descricao>Deixar de conservar nas faixas da direita o veiculo lento e de maior porte</descricao>
+    <amparo>185, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>136</id>
+    <codigo>572-00</codigo>
+    <descricao>Transitar pela contramao de direcao em via com duplo sentido de circulacao</descricao>
+    <amparo>186, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>137</id>
+    <codigo>573-80</codigo>
+    <descricao>Transitar pela contramao de direcao em via c sinalizacao de regul sentido unico</descricao>
+    <amparo>186, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>138</id>
+    <codigo>574-61</codigo>
+    <descricao>Transitar em local horario nao permitido pela regul estabelecida p autoridade</descricao>
+    <amparo>187, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>139</id>
+    <codigo>574-62</codigo>
+    <descricao>Transitar em local horario nao permitido pela regulamentacao - rodizio</descricao>
+    <amparo>187, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>140</id>
+    <codigo>574-63</codigo>
+    <descricao>Transitar em local horario nao permitido pela regulamentacao - caminhao</descricao>
+    <amparo>187, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>141</id>
+    <codigo>576-20</codigo>
+    <descricao>Transitar ao lado de outro veiculo, interrompendo ou perturbando o transito</descricao>
+    <amparo>188</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>142</id>
+    <codigo>577-01</codigo>
+    <descricao>Deixar de dar passagem a veic precedido de batedores devidamente identificados</descricao>
+    <amparo>189</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>143</id>
+    <codigo>577-02</codigo>
+    <descricao>Deixar de dar passagem a veic socorro incendio salv serv urgencia devid identif</descricao>
+    <amparo>189</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>144</id>
+    <codigo>577-03</codigo>
+    <descricao>Deixar de dar passagem a veic de policia em servico de urgencia devid identif</descricao>
+    <amparo>189</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>145</id>
+    <codigo>577-04</codigo>
+    <descricao>Deixar de dar passagem a veic de operacao e fiscalizacao de transito devid ident</descricao>
+    <amparo>189</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>146</id>
+    <codigo>577-05</codigo>
+    <descricao>Deixar de dar passagem a ambulancia em servico de urgencia devid identificada</descricao>
+    <amparo>189</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>147</id>
+    <codigo>578-90</codigo>
+    <descricao>Seguir veiculo em serv urgencia devid identific p alarme sonoro ilum vermelha</descricao>
+    <amparo>190</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>148</id>
+    <codigo>579-70</codigo>
+    <descricao>Forcar passagem entre veics trans sent opostos na iminencia realiz ultrapassagem</descricao>
+    <amparo>191</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>149</id>
+    <codigo>580-00</codigo>
+    <descricao>Deixar guardar dist seguranca lat front entre seu veic e demais e ao bordo pista</descricao>
+    <amparo>192</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>150</id>
+    <codigo>581-91</codigo>
+    <descricao>Transitar com o veiculo em calcadas, passeios</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>151</id>
+    <codigo>581-92</codigo>
+    <descricao>Transitar com o veiculo em ciclovias, ciclofaixas</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>152</id>
+    <codigo>581-93</codigo>
+    <descricao>Transitar com o veiculo em ajardinamentos, gramados, jardins publicos</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>153</id>
+    <codigo>581-94</codigo>
+    <descricao>Transitar com o veiculo em canteiros centrais divisores de pista de rolamento</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>154</id>
+    <codigo>581-95</codigo>
+    <descricao>Transitar com o veiculo em ilhas, refugios</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>155</id>
+    <codigo>581-96</codigo>
+    <descricao>Transitar com o veiculo em marcas de canalizacao</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>156</id>
+    <codigo>581-97</codigo>
+    <descricao>Transitar com o veiculo em acostamentos</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>157</id>
+    <codigo>581-98</codigo>
+    <descricao>Transitar com o veiculo em passarelas</descricao>
+    <amparo>193</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>158</id>
+    <codigo>582-70</codigo>
+    <descricao>Transitar em marcha re, salvo na distancia necessaria a pequenas manobras</descricao>
+    <amparo>194</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>159</id>
+    <codigo>583-50</codigo>
+    <descricao>Desobedecer as ordens emanadas da autorid compet de transito ou de seus agentes</descricao>
+    <amparo>195</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>160</id>
+    <codigo>584-31</codigo>
+    <descricao>Deixar de indicar c antec, med gesto de braco luz indicadora, inicio da marcha</descricao>
+    <amparo>196</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>161</id>
+    <codigo>584-32</codigo>
+    <descricao>Deixar de indicar c antec, med gesto de braco luz indicadora, manobra de parar</descricao>
+    <amparo>196</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>162</id>
+    <codigo>584-33</codigo>
+    <descricao>Deixar de indicar c antec, med gesto de braco luz indicadora, mudanca direcao</descricao>
+    <amparo>196</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>163</id>
+    <codigo>584-34</codigo>
+    <descricao>Deixar de indicar c antec, med gesto de braco luz indicadora, mudanca de faixa</descricao>
+    <amparo>196</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>164</id>
+    <codigo>585-11</codigo>
+    <descricao>Deixar de deslocar c antecedencia veic p faixa mais a esquerda qdo for manobrar</descricao>
+    <amparo>197</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>165</id>
+    <codigo>585-12</codigo>
+    <descricao>Deixar de deslocar c antecedencia veic p faixa mais a direita qdo for manobrar</descricao>
+    <amparo>197</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>166</id>
+    <codigo>586-00</codigo>
+    <descricao>Deixar de dar passagem pela esquerda quando solicitado</descricao>
+    <amparo>198</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>167</id>
+    <codigo>587-80</codigo>
+    <descricao>Ultrapassar pela direita, salvo qdo veic da frente der sinal p entrar esquerda</descricao>
+    <amparo>199</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>168</id>
+    <codigo>588-60</codigo>
+    <descricao>Ultrap pela direita veic transp colet escolar parado para emb desemb passageiros</descricao>
+    <amparo>200</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>169</id>
+    <codigo>589-40</codigo>
+    <descricao>Deixar de guardar a distancia lateral de 1,50m ao passar ultrapassar bicicleta</descricao>
+    <amparo>201</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>170</id>
+    <codigo>590-80</codigo>
+    <descricao>Ultrapassar pelo acostamento</descricao>
+    <amparo>202, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>171</id>
+    <codigo>591-61</codigo>
+    <descricao>Ultrapassar em intersecoes</descricao>
+    <amparo>202, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>172</id>
+    <codigo>591-62</codigo>
+    <descricao>Ultrapassar em passagem de nivel</descricao>
+    <amparo>202, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>173</id>
+    <codigo>592-41</codigo>
+    <descricao>Ultrapassar pela contramao nas curvas sem visibilidade suficiente</descricao>
+    <amparo>203, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>174</id>
+    <codigo>592-42</codigo>
+    <descricao>Ultrapassar pela contramao nos aclives ou declives, sem visibilidade suficiente</descricao>
+    <amparo>203, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>175</id>
+    <codigo>593-20</codigo>
+    <descricao>Ultrapassar pela contramao nas faixas de pedestre</descricao>
+    <amparo>203, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>176</id>
+    <codigo>594-01</codigo>
+    <descricao>Ultrapassar pela contramao nas pontes</descricao>
+    <amparo>203, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>177</id>
+    <codigo>594-02</codigo>
+    <descricao>Ultrapassar pela contramao nos viadutos</descricao>
+    <amparo>203, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>178</id>
+    <codigo>594-03</codigo>
+    <descricao>Ultrapassar pela contramao nos tuneis</descricao>
+    <amparo>203, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>179</id>
+    <codigo>595-91</codigo>
+    <descricao>Ultrapassar pela contramao veiculo parado em fila junto sinal luminoso</descricao>
+    <amparo>203, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>180</id>
+    <codigo>595-92</codigo>
+    <descricao>Ultrapassar pela contramao veiculo parado em fila junto a cancela porteira</descricao>
+    <amparo>203, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>181</id>
+    <codigo>595-93</codigo>
+    <descricao>Ultrapassar pela contramao veiculo parado em fila junto a cruzamento</descricao>
+    <amparo>203, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>182</id>
+    <codigo>595-94</codigo>
+    <descricao>Ultrapassar pela contramao veic parado em fila junto qq impedimento a circulacao</descricao>
+    <amparo>203, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>183</id>
+    <codigo>596-70</codigo>
+    <descricao>Ultrapassar pela contramao linha de divisao de fluxos opostos, continua amarela</descricao>
+    <amparo>203, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>184</id>
+    <codigo>597-50</codigo>
+    <descricao>Deixar de parar no acostamento a direita, p cruzar pista ou entrar a esquerda</descricao>
+    <amparo>204</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>185</id>
+    <codigo>598-30</codigo>
+    <descricao>Ultrapassar veiculo em movimento que integre cortejo desfile formacao militar</descricao>
+    <amparo>205</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>186</id>
+    <codigo>599-10</codigo>
+    <descricao>Executar operacao de retorno em locais proibidos pela sinalizacao</descricao>
+    <amparo>206, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>187</id>
+    <codigo>600-91</codigo>
+    <descricao>Executar operacao de retorno nas curvas</descricao>
+    <amparo>206, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>188</id>
+    <codigo>600-92</codigo>
+    <descricao>Executar operacao de retorno nos aclives ou declives</descricao>
+    <amparo>206, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>189</id>
+    <codigo>600-93</codigo>
+    <descricao>Executar operacao de retorno nas pontes</descricao>
+    <amparo>206, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>190</id>
+    <codigo>600-94</codigo>
+    <descricao>Executar operacao de retorno nos viadutos</descricao>
+    <amparo>206, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>191</id>
+    <codigo>600-95</codigo>
+    <descricao>Executar operacao de retorno nos tuneis</descricao>
+    <amparo>206, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>192</id>
+    <codigo>601-71</codigo>
+    <descricao>Executar operacao de retorno passando por cima de calcada, passeio</descricao>
+    <amparo>206, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>193</id>
+    <codigo>601-72</codigo>
+    <descricao>Executar operacao de retorno passando por cima de ilha, refugio</descricao>
+    <amparo>206, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>194</id>
+    <codigo>601-73</codigo>
+    <descricao>Executar operacao de retorno passando por cima de ajardinamento</descricao>
+    <amparo>206, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>195</id>
+    <codigo>601-74</codigo>
+    <descricao>Executar operacao de retorno passando por cima de canteiro de divisor de pista</descricao>
+    <amparo>206, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>196</id>
+    <codigo>601-75</codigo>
+    <descricao>Executar operacao de retorno passando por cima de faixa de pedestres</descricao>
+    <amparo>206, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>197</id>
+    <codigo>601-76</codigo>
+    <descricao>Executar operacao de retorno passando por cima de faixa de veic nao motorizados</descricao>
+    <amparo>206, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>198</id>
+    <codigo>602-50</codigo>
+    <descricao>Executar retorno nas intersecoes, entrando na contramao da via transversal</descricao>
+    <amparo>206, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>199</id>
+    <codigo>603-30</codigo>
+    <descricao>Executar retorno c prejuizo da circulacao seguranca ainda que em local permitido</descricao>
+    <amparo>206, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>200</id>
+    <codigo>604-11</codigo>
+    <descricao>Executar operacao de conversao a direita em local proibido pela sinalizacao</descricao>
+    <amparo>207</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>201</id>
+    <codigo>604-12</codigo>
+    <descricao>Executar operacao de conversao a esquerda em local proibido pela sinalizacao</descricao>
+    <amparo>207</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>202</id>
+    <codigo>605-01</codigo>
+    <descricao>Avancar o sinal vermelho do semaforo</descricao>
+    <amparo>208</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>203</id>
+    <codigo>605-02</codigo>
+    <descricao>Avancar o sinal de parada obrigatoria</descricao>
+    <amparo>208</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>204</id>
+    <codigo>605-03</codigo>
+    <descricao>Avancar o sinal vermelho do semaforo - fiscalizacao eletronica</descricao>
+    <amparo>208</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>205</id>
+    <codigo>606-81</codigo>
+    <descricao>Transpor bloqueio viario com ou sem sinalizacao ou dispositivos auxiliares</descricao>
+    <amparo>209</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>206</id>
+    <codigo>606-82</codigo>
+    <descricao>Deixar de adentrar as areas destinadas a pesagem de veiculos</descricao>
+    <amparo>209</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>207</id>
+    <codigo>606-83</codigo>
+    <descricao>Evadir-se para nao efetuar o pagamento do pedagio</descricao>
+    <amparo>209</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>208</id>
+    <codigo>607-60</codigo>
+    <descricao>Transpor bloqueio viario policial</descricao>
+    <amparo>210</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>209</id>
+    <codigo>608-41</codigo>
+    <descricao>Ultrapassar veiculos motorizados em fila, parados em razao de sinal luminoso</descricao>
+    <amparo>211</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>210</id>
+    <codigo>608-42</codigo>
+    <descricao>Ultrapassar veiculos motorizados em fila, parados em razao de cancela</descricao>
+    <amparo>211</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>211</id>
+    <codigo>608-43</codigo>
+    <descricao>Ultrapassar veic motorizados em fila parados em razao de bloqueio viario parcial</descricao>
+    <amparo>211</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>212</id>
+    <codigo>608-44</codigo>
+    <descricao>Ultrapassar veiculos motorizados em fila, parados em razao de qualquer obstaculo</descricao>
+    <amparo>211</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>213</id>
+    <codigo>609-20</codigo>
+    <descricao>Deixar de parar o veiculo antes de transpor linha ferrea</descricao>
+    <amparo>212</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>214</id>
+    <codigo>610-60</codigo>
+    <descricao>Deixar de parar sempre que a marcha for interceptada por agrupamento de pessoas</descricao>
+    <amparo>213, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>215</id>
+    <codigo>611-40</codigo>
+    <descricao>Deixar de parar sempre que a marcha for interceptada por agrupamento de veiculos</descricao>
+    <amparo>213, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>216</id>
+    <codigo>612-20</codigo>
+    <descricao>Deixar de dar preferencia a pedestre veic Nao motorizado na faixa a ele destinada</descricao>
+    <amparo>214, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>217</id>
+    <codigo>613-00</codigo>
+    <descricao>Deixar de dar preferencia a pedestre veic Nao mot que Nao haja concluido a travessia</descricao>
+    <amparo>214, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>218</id>
+    <codigo>614-90</codigo>
+    <descricao>Deixar de dar preferencia a pedestre port deficiencia fis crianca idoso gestante</descricao>
+    <amparo>214, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>219</id>
+    <codigo>615-70</codigo>
+    <descricao>Deixar de dar preferencia a pedestre veic Nao mot qdo iniciada travessia s sinaliz</descricao>
+    <amparo>214, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>220</id>
+    <codigo>616-50</codigo>
+    <descricao>Deixar de dar preferencia a pedestre veic nao mot atravessando a via transversal</descricao>
+    <amparo>214, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>221</id>
+    <codigo>617-31</codigo>
+    <descricao>Deixar de dar preferencia em intersecao Nao sinaliz, a veic circulando por RODia</descricao>
+    <amparo>215, I, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>222</id>
+    <codigo>617-32</codigo>
+    <descricao>Deixar de dar preferencia em intersecao Nao sinaliz, veic circulando por rotatoria</descricao>
+    <amparo>215, I, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>223</id>
+    <codigo>617-33</codigo>
+    <descricao>Deixar de dar prefer em intersecao nao sinalizada, a veiculo que vier da direita</descricao>
+    <amparo>215, I, b</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>224</id>
+    <codigo>618-10</codigo>
+    <descricao>Deixar de dar preferencia nas intersecoes com sinalizacao de De a Preferencia</descricao>
+    <amparo>215, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>225</id>
+    <codigo>619-00</codigo>
+    <descricao>Entrar sair area lindeira sem precaucao com a seguranca de pedestres e veiculos</descricao>
+    <amparo>216</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>226</id>
+    <codigo>620-30</codigo>
+    <descricao>Entrar sair de fila de veiculos estacionados sem dar pref a pedestres veiculos</descricao>
+    <amparo>217</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>227</id>
+    <codigo>745-50</codigo>
+    <descricao>Transitar em velocidade superior a maxima permitida em ate 20</descricao>
+    <amparo>218, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>228</id>
+    <codigo>746-30</codigo>
+    <descricao>Transitar em velocidade superior a maxima permitida em mais de 20 ate 50</descricao>
+    <amparo>218, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>229</id>
+    <codigo>747-10</codigo>
+    <descricao>Transitar em velocidade superior a maxima permitida em mais de 50</descricao>
+    <amparo>218, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>230</id>
+    <codigo>625-40</codigo>
+    <descricao>Transitar em velocidade inferior a metade da maxima da via, salvo faixa direita</descricao>
+    <amparo>219</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>231</id>
+    <codigo>626-20</codigo>
+    <descricao>Deixar de reduzir a veloc qdo se aproximar de passeata aglomeracao desfile etc</descricao>
+    <amparo>220, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>232</id>
+    <codigo>627-00</codigo>
+    <descricao>Deixar de reduzir a veloc onde o transito esteja sendo controlado pelo agente</descricao>
+    <amparo>220, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>233</id>
+    <codigo>628-91</codigo>
+    <descricao>Deixar de reduzir a velocidade do veiculo ao aproximar-se da guia da calcada</descricao>
+    <amparo>220, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>234</id>
+    <codigo>628-92</codigo>
+    <descricao>Deixar de reduzir a velocidade do veiculo ao aproximar-se do acostamento</descricao>
+    <amparo>220, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>235</id>
+    <codigo>629-70</codigo>
+    <descricao>Deixar de reduzir velocidade do veiculo ao aproximar-se intersecao Nao sinalizada</descricao>
+    <amparo>220, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>236</id>
+    <codigo>630-00</codigo>
+    <descricao>Deixar reduzir velocidade nas vias rurais cuja faixa dominio nao esteja cercada</descricao>
+    <amparo>220, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>237</id>
+    <codigo>631-90</codigo>
+    <descricao>Deixar de reduzir a velocidade nos trechos em curva de pequeno raio</descricao>
+    <amparo>220, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>238</id>
+    <codigo>632-70</codigo>
+    <descricao>Deixar de reduzir veloc ao aproximar local sinaliz advert de obras trabalhadores</descricao>
+    <amparo>220, VII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>239</id>
+    <codigo>633-50</codigo>
+    <descricao>Deixar de reduzir a velocidade sob chuva neblina cerracao ventos fortes</descricao>
+    <amparo>220, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>240</id>
+    <codigo>634-30</codigo>
+    <descricao>Deixar de reduzir a velocidade quando houver ma visibilidade</descricao>
+    <amparo>220, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>241</id>
+    <codigo>635-10</codigo>
+    <descricao>Deixar de reduzir veloc qdo pavimento se apresentar escorreg defeituoso avariado</descricao>
+    <amparo>220, X</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>242</id>
+    <codigo>636-00</codigo>
+    <descricao>Deixar de reduzir a velocidade a aproximacao de animais na pista</descricao>
+    <amparo>220, XI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>243</id>
+    <codigo>637-80</codigo>
+    <descricao>Deixar de reduzir a velocidade de forma compativel com a seguranca, em declive</descricao>
+    <amparo>220, XII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>244</id>
+    <codigo>638-60</codigo>
+    <descricao>Deixar de reduzir veloc de forma compativel c seguranca ao ultrapassar ciclista</descricao>
+    <amparo>220, XIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>245</id>
+    <codigo>639-41</codigo>
+    <descricao>Deixar de reduzir a velocidade nas proximidades de escolas</descricao>
+    <amparo>220, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>246</id>
+    <codigo>639-42</codigo>
+    <descricao>Deixar de reduzir a velocidade nas proximidades de hospitais</descricao>
+    <amparo>220, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>247</id>
+    <codigo>639-43</codigo>
+    <descricao>Deixar de reduzir veloc na proxim estacao embarque desembarque passageiros</descricao>
+    <amparo>220, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>248</id>
+    <codigo>639-44</codigo>
+    <descricao>Deixar de reduzir veloc onde haja intensa movimentacao de pedestres</descricao>
+    <amparo>220, XIV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>249</id>
+    <codigo>640-80</codigo>
+    <descricao>Portar no veiculo placas de identificacao em desacordo c especif modelo Contran</descricao>
+    <amparo>221</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>250</id>
+    <codigo>641-60</codigo>
+    <descricao>Confec distribuir colocar veic proprio terceiro placa identif desacordo Contran</descricao>
+    <amparo>221, par unico</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>251</id>
+    <codigo>642-40</codigo>
+    <descricao>Deixar de manter ligado em emerg sist ilum vermelha intermitente ainda q parado</descricao>
+    <amparo>222</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>252</id>
+    <codigo>643-21</codigo>
+    <descricao>Transitar com farol desregulado perturbando visao outro condutor</descricao>
+    <amparo>223</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>253</id>
+    <codigo>643-22</codigo>
+    <descricao>Transitar com o facho de luz alta perturbando visao outro condutor</descricao>
+    <amparo>223</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>254</id>
+    <codigo>644-00</codigo>
+    <descricao>Fazer uso do facho de luz alta dos farois em vias providas de iluminacao publica</descricao>
+    <amparo>224</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>255</id>
+    <codigo>645-91</codigo>
+    <descricao>Deixar de sinalizar via p tornar visivel local qdo tiver remover veic da pista</descricao>
+    <amparo>225, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>256</id>
+    <codigo>645-92</codigo>
+    <descricao>Deixar de sinalizar a via p tornar visivel o local qdo permanecer acostamento</descricao>
+    <amparo>225, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>257</id>
+    <codigo>646-70</codigo>
+    <descricao>Deixar de sinalizar a via p tornar visivel o local qdo a carga for derramada</descricao>
+    <amparo>225, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>258</id>
+    <codigo>647-50</codigo>
+    <descricao>Deixar de retirar qualquer objeto utilizado para sinalizacao temporaria da via</descricao>
+    <amparo>226</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>259</id>
+    <codigo>648-30</codigo>
+    <descricao>Usar buzina que nao a de toque breve como advertencia a pedestre ou condutores</descricao>
+    <amparo>227, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>260</id>
+    <codigo>649-10</codigo>
+    <descricao>Usar buzina prolongada e sucessivamente a qualquer pretexto</descricao>
+    <amparo>227, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>261</id>
+    <codigo>650-50</codigo>
+    <descricao>Usar buzina entre as vinte e duas e as seis horas</descricao>
+    <amparo>227, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>262</id>
+    <codigo>651-30</codigo>
+    <descricao>Usar buzina em locais e horarios proibidos pela sinalizacao</descricao>
+    <amparo>227, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>263</id>
+    <codigo>652-10</codigo>
+    <descricao>Usar buzina em desacordo c os padroes e freqüencias estabelecidas pelo Contran</descricao>
+    <amparo>227, V</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>264</id>
+    <codigo>653-00</codigo>
+    <descricao>Usar no veiculo equip c som em volume freqüencia nao autorizados pelo Contran</descricao>
+    <amparo>228</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>265</id>
+    <codigo>654-80</codigo>
+    <descricao>Usar no veic alarme aparelho produz som perturbe sossego pub desac norma Contran</descricao>
+    <amparo>229</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>266</id>
+    <codigo>655-61</codigo>
+    <descricao>Conduzir o veiculo com o lacre de identificacao violado falsificado</descricao>
+    <amparo>230, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>267</id>
+    <codigo>655-62</codigo>
+    <descricao>Conduzir o veiculo com a inscricao do chassi violada falsificada</descricao>
+    <amparo>230, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>268</id>
+    <codigo>655-63</codigo>
+    <descricao>Conduzir o veiculo com o selo violado falsificado</descricao>
+    <amparo>230, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>269</id>
+    <codigo>655-64</codigo>
+    <descricao>Conduzir o veiculo com a placa violada falsificada</descricao>
+    <amparo>230, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>270</id>
+    <codigo>655-65</codigo>
+    <descricao>Conduzir o veiculo com qualquer outro elem de identificacao violado falsificado</descricao>
+    <amparo>230, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>271</id>
+    <codigo>656-40</codigo>
+    <descricao>Conduzir o veiculo transportando passageiros em compartimento de carga</descricao>
+    <amparo>230, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>272</id>
+    <codigo>657-20</codigo>
+    <descricao>Conduzir o veiculo com dispositivo antirradar</descricao>
+    <amparo>230, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>273</id>
+    <codigo>658-00</codigo>
+    <descricao>Conduzir o veiculo sem qualquer uma das placas de identificacao</descricao>
+    <amparo>230, IV</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>274</id>
+    <codigo>659-91</codigo>
+    <descricao>Conduzir o veiculo que nao esteja registrado</descricao>
+    <amparo>230, V</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>275</id>
+    <codigo>659-92</codigo>
+    <descricao>Conduzir o veiculo registrado que nao esteja devidamente licenciado</descricao>
+    <amparo>230, V</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>276</id>
+    <codigo>660-20</codigo>
+    <descricao>Conduzir o veiculo com qualquer uma das placas sem legibilidade e visibilidade</descricao>
+    <amparo>230, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>277</id>
+    <codigo>661-01</codigo>
+    <descricao>Conduzir o veiculo com a cor alterada</descricao>
+    <amparo>230, VII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>278</id>
+    <codigo>661-02</codigo>
+    <descricao>Conduzir o veiculo com caracteristica alterada</descricao>
+    <amparo>230, VII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>279</id>
+    <codigo>662-90</codigo>
+    <descricao>Conduzir veiculo s ter sido submetido a inspecao seg veicular, qdo obrigatoria</descricao>
+    <amparo>230, VIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>280</id>
+    <codigo>663-71</codigo>
+    <descricao>Conduzir o veiculo sem equipamento obrigatorio</descricao>
+    <amparo>230, IX</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>281</id>
+    <codigo>663-72</codigo>
+    <descricao>Conduzir o veiculo com equipamento obrigatorio ineficiente inoperante</descricao>
+    <amparo>230, IX</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>282</id>
+    <codigo>664-50</codigo>
+    <descricao>Conduzir o veiculo com equip obrigatorio em desacordo com o estab pelo Contran</descricao>
+    <amparo>230, X</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>283</id>
+    <codigo>665-31</codigo>
+    <descricao>Conduzir o veiculo com descarga livre</descricao>
+    <amparo>230, XI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>284</id>
+    <codigo>665-32</codigo>
+    <descricao>Conduzir o veiculo com silenciador de motor defeituoso deficiente inoperante</descricao>
+    <amparo>230, XI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>285</id>
+    <codigo>666-10</codigo>
+    <descricao>Conduzir o veiculo com equipamento ou acessorio proibido</descricao>
+    <amparo>230, XII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>286</id>
+    <codigo>667-00</codigo>
+    <descricao>Conduzir o veiculo c equip do sistema de iluminacao e de sinalizacao alterados</descricao>
+    <amparo>230, XIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>287</id>
+    <codigo>668-80</codigo>
+    <descricao>Conduzir veic c registrador instan inalt de velocidade tempo viciado defeituoso</descricao>
+    <amparo>230, XIV</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>288</id>
+    <codigo>669-61</codigo>
+    <descricao>Conduzir c inscr adesivo legenda simbolo afixado para-brisa e extensao traseira</descricao>
+    <amparo>230, XV</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>289</id>
+    <codigo>669-62</codigo>
+    <descricao>Conduzir c inscr adesivo legenda simbolo pintado para-brisa e extensao traseira</descricao>
+    <amparo>230, XV</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>290</id>
+    <codigo>670-00</codigo>
+    <descricao>Conduzir veic com vidro total parcialmente coberto por pelicula, paineis pintura</descricao>
+    <amparo>230, XVI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>291</id>
+    <codigo>671-80</codigo>
+    <descricao>Conduzir o veiculo com cortinas ou persianas fechadas</descricao>
+    <amparo>230, XVII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>292</id>
+    <codigo>672-61</codigo>
+    <descricao>Conduzir o veiculo em mau ESTo de conservacao, comprometendo a seguranca</descricao>
+    <amparo>230, XVIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>293</id>
+    <codigo>672-62</codigo>
+    <descricao>Conduzir o veiculo reprovado na avaliacao de inspecao de seguranca</descricao>
+    <amparo>230, XVIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>294</id>
+    <codigo>672-63</codigo>
+    <descricao>Conduzir o veiculo reprovado na avaliacao de emissao de poluentes e ruido</descricao>
+    <amparo>230, XVIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>295</id>
+    <codigo>673-40</codigo>
+    <descricao>Conduzir o veiculo sem acionar o limpador de para-brisa sob chuva</descricao>
+    <amparo>230, XIX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>296</id>
+    <codigo>674-20</codigo>
+    <descricao>Conduzir o veiculo sem portar a autorizacao para conducao de escolares</descricao>
+    <amparo>230, XX</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>297</id>
+    <codigo>675-00</codigo>
+    <descricao>Conduzir o veic de carga c falta inscricao da tara e demais previstas no CTB</descricao>
+    <amparo>230, XXI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>298</id>
+    <codigo>676-90</codigo>
+    <descricao>Conduzir veic c defeito no sist de iluminacao, sinaliz ou lampadas queimadas</descricao>
+    <amparo>230, XXII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>299</id>
+    <codigo>756-00</codigo>
+    <descricao>Conduzir veic de transp passag ou carga em desacordo c as cond do art. 67-C CTB</descricao>
+    <amparo>230, XXIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>300</id>
+    <codigo>677-70</codigo>
+    <descricao>Transitar com o veiculo danificando a via, suas instalacoes e equipamentos</descricao>
+    <amparo>231, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>301</id>
+    <codigo>678-51</codigo>
+    <descricao>Transitar com veiculo derramando a carga que esteja transportando</descricao>
+    <amparo>231, II, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>302</id>
+    <codigo>678-52</codigo>
+    <descricao>Transitar com veiculo lancando a carga que esteja transportando</descricao>
+    <amparo>231, II, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>303</id>
+    <codigo>678-53</codigo>
+    <descricao>Transitar com veiculo arrastando a carga que esteja transportando</descricao>
+    <amparo>231, II, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>304</id>
+    <codigo>679-30</codigo>
+    <descricao>Transitar com veic derramando lancando combustivel lubrif que esteja utilizando</descricao>
+    <amparo>231, II, b</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>305</id>
+    <codigo>680-70</codigo>
+    <descricao>Transitar c veic derraman lancando arrastando objeto possa acarretar risco acid</descricao>
+    <amparo>231, II, c</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>306</id>
+    <codigo>681-50</codigo>
+    <descricao>Transitar com veiculo produzindo fumaca, gases ou particulas em desac c Contran</descricao>
+    <amparo>231, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>307</id>
+    <codigo>682-31</codigo>
+    <descricao>Transitar c veic e ou carga c dimensoes superiores limite legal s autorizacao</descricao>
+    <amparo>231, IV</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>308</id>
+    <codigo>682-32</codigo>
+    <descricao>Transitar c veic e ou carga c dimensoes superiores est p sinalizacao s autoriz</descricao>
+    <amparo>231, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>309</id>
+    <codigo>683-11</codigo>
+    <descricao>Transitar com o veiculo com excesso de peso PBT PBTC</descricao>
+    <amparo>231, V</amparo>
+    <infrator>Emb Transp</infrator>
+    <gravidade>Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>310</id>
+    <codigo>683-12</codigo>
+    <descricao>Transitar com o veiculo com excesso de peso - Por Eixo</descricao>
+    <amparo>231, V</amparo>
+    <infrator>Emb Transp</infrator>
+    <gravidade>Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>311</id>
+    <codigo>683-13</codigo>
+    <descricao>Transitar com o veiculo com excesso de peso - PBT PBTC e Por Eixo</descricao>
+    <amparo>231, V</amparo>
+    <infrator>Emb Transp</infrator>
+    <gravidade>Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>312</id>
+    <codigo>684-01</codigo>
+    <descricao>Transitar em desacordo c autorizacao expedida p veiculo c dimensoes excedentes</descricao>
+    <amparo>231, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>313</id>
+    <codigo>684-02</codigo>
+    <descricao>Transitar com autorizacao vencida, expedida p veiculo c dimensoes excedentes</descricao>
+    <amparo>231, VI</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>314</id>
+    <codigo>685-80</codigo>
+    <descricao>Transitar com o veiculo com lotacao excedente</descricao>
+    <amparo>231, VII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>315</id>
+    <codigo>686-61</codigo>
+    <descricao>Transitar efetuando transporte remunerado de pessoas qdo Nao licenciado p esse fim</descricao>
+    <amparo>231, VIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>316</id>
+    <codigo>686-62</codigo>
+    <descricao>Transitar efetuando transporte remunerado de bens qdo nao licenciado p esse fim</descricao>
+    <amparo>231, VIII</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>317</id>
+    <codigo>687-41</codigo>
+    <descricao>Transitar com o veiculo desligado em declive</descricao>
+    <amparo>231, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>318</id>
+    <codigo>687-42</codigo>
+    <descricao>Transitar com o veiculo desengrenado em declive</descricao>
+    <amparo>231, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>319</id>
+    <codigo>688-20</codigo>
+    <descricao>Transitar com o veiculo excedendo a CMT em ate 600 kg</descricao>
+    <amparo>231, X</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>320</id>
+    <codigo>689-00</codigo>
+    <descricao>Transitar com o veiculo excedendo a CMT entre 601 e 1.000 kg</descricao>
+    <amparo>231, X</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>321</id>
+    <codigo>690-40</codigo>
+    <descricao>Transitar com o veiculo excedendo a CMT acima de 1.000 kg</descricao>
+    <amparo>231, X</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>322</id>
+    <codigo>691-20</codigo>
+    <descricao>Conduzir veiculo sem os documentos de porte obrigatorio referidos no CTB</descricao>
+    <amparo>232</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>323</id>
+    <codigo>692-01</codigo>
+    <descricao>Deixar de efetuar registro do veiculo em 30 dias, qdo for transf a propriedade</descricao>
+    <amparo>233 c c 123, I</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>324</id>
+    <codigo>692-02</codigo>
+    <descricao>Deixar de efetuar reg do veic em 30 dias, qdo mudar o MUN de domicilio resid</descricao>
+    <amparo>233 c c 123, II</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>325</id>
+    <codigo>692-03</codigo>
+    <descricao>Deixar de efetuar reg de veic em 30 dias, qdo for alterada qquer caract do veic</descricao>
+    <amparo>233 c c 123, III</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>326</id>
+    <codigo>692-04</codigo>
+    <descricao>Deixar de efetuar registro de veiculo em 30 dias, qdo houver mudanca de categoria</descricao>
+    <amparo>233 c c 123, IV</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>327</id>
+    <codigo>693-91</codigo>
+    <descricao>Falsificar ou adulterar documento de habilitacao</descricao>
+    <amparo>234</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>328</id>
+    <codigo>693-92</codigo>
+    <descricao>Falsificar ou adulterar documento de identificacao do veiculo</descricao>
+    <amparo>234</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>329</id>
+    <codigo>694-71</codigo>
+    <descricao>Conduzir pessoas nas partes externas do veiculo</descricao>
+    <amparo>235</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>330</id>
+    <codigo>694-72</codigo>
+    <descricao>Conduzir animais nas partes externas do veiculo</descricao>
+    <amparo>235</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>331</id>
+    <codigo>694-73</codigo>
+    <descricao>Conduzir carga nas partes externas do veiculo</descricao>
+    <amparo>235</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>332</id>
+    <codigo>695-50</codigo>
+    <descricao>Rebocar outro veiculo com cabo flexivel ou corda</descricao>
+    <amparo>236</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>333</id>
+    <codigo>696-30</codigo>
+    <descricao>Trans c veic desac c especificacao falta de inscr simbologia necessaria identif</descricao>
+    <amparo>237</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>334</id>
+    <codigo>697-10</codigo>
+    <descricao>Recusar-se a entregar CNH CRV CRLV outros documentos</descricao>
+    <amparo>238</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>335</id>
+    <codigo>698-00</codigo>
+    <descricao>Retirar do local veiculo legalmente retido para regularizacao, sem permissao</descricao>
+    <amparo>239</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>336</id>
+    <codigo>699-80</codigo>
+    <descricao>Deixar responsavel de promover baixa registro de veic irrecuperavel desmontado</descricao>
+    <amparo>240</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>337</id>
+    <codigo>700-51</codigo>
+    <descricao>Deixar de atualizar o cadastro de registro do veiculo</descricao>
+    <amparo>241</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>338</id>
+    <codigo>700-52</codigo>
+    <descricao>Deixar de atualizar o cadastro de habilitacao do condutor</descricao>
+    <amparo>241</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>3 - Leve</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>339</id>
+    <codigo>701-31</codigo>
+    <descricao>Fazer falsa declaracao de domicilio para fins de registro licenciamento</descricao>
+    <amparo>242</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>340</id>
+    <codigo>701-32</codigo>
+    <descricao>Fazer falsa declaracao de domicilio para fins de habilitacao</descricao>
+    <amparo>242</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>341</id>
+    <codigo>702-10</codigo>
+    <descricao>Deixar seguradora de coMUNar ocorrencia perda total veic e devolver placas doc</descricao>
+    <amparo>243</amparo>
+    <infrator>P Juridica</infrator>
+    <gravidade>Grave</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>342</id>
+    <codigo>703-01</codigo>
+    <descricao>Conduzir motocicleta, motoneta e ciclomotor sem capacete de seguranca</descricao>
+    <amparo>244, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>343</id>
+    <codigo>703-03</codigo>
+    <descricao>Conduzir motocicleta, motoneta e ciclomotor sem vestuario aprovado pelo Contran</descricao>
+    <amparo>244, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>344</id>
+    <codigo>704-81</codigo>
+    <descricao>Conduzir motocicleta, motoneta e ciclomotor transportando passageiro s capacete</descricao>
+    <amparo>244, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>345</id>
+    <codigo>704-83</codigo>
+    <descricao>Conduzir motocicleta motoneta ciclomotor transportando pas. fora do assento</descricao>
+    <amparo>244, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>346</id>
+    <codigo>705-61</codigo>
+    <descricao>Conduzir motoc moton ciclomotor fazendo malabarismo equilibrando-se em uma roda</descricao>
+    <amparo>244, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>347</id>
+    <codigo>705-62</codigo>
+    <descricao>Conduzir ciclo fazendo malabarismo ou equilibrando-se em uma roda</descricao>
+    <amparo>244, III c c par 1</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>348</id>
+    <codigo>706-40</codigo>
+    <descricao>Conduzir motocicleta, motoneta e ciclomotor com os farois apagados</descricao>
+    <amparo>244, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>349</id>
+    <codigo>707-21</codigo>
+    <descricao>Conduzir motocicleta motoneta ciclomotor transportando crianca menor de 7 anos</descricao>
+    <amparo>244, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>350</id>
+    <codigo>707-22</codigo>
+    <descricao>Conduzir motoc moton ciclom transp crianca s condicao cuidar propria seguranca</descricao>
+    <amparo>244, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>351</id>
+    <codigo>708-00</codigo>
+    <descricao>Conduzir motocicleta, motoneta e ciclomotor rebocando outro veiculo</descricao>
+    <amparo>244, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>352</id>
+    <codigo>709-91</codigo>
+    <descricao>Conduzir motocicleta motoneta ciclomotor sem segurar o guidom com ambas as maos</descricao>
+    <amparo>244, VII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>353</id>
+    <codigo>709-92</codigo>
+    <descricao>Conduzir ciclo sem segurar o guidom com ambas as maos</descricao>
+    <amparo>244, VII c c par 1</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>354</id>
+    <codigo>710-21</codigo>
+    <descricao>Conduzir motocicleta, motoneta e ciclomotor transportando carga incompativel</descricao>
+    <amparo>244, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>355</id>
+    <codigo>710-22</codigo>
+    <descricao>Conduzir ciclo transportando carga incompativel</descricao>
+    <amparo>244, VIII c c par 1</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>356</id>
+    <codigo>710-23</codigo>
+    <descricao>Conduzir motoc moton transportando carga em desacordo c par 2 do Art 139-A CTB</descricao>
+    <amparo>244, VIII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>357</id>
+    <codigo>755-21</codigo>
+    <descricao>Conduzir motoc moton efetuando transp remun mercadoria desac c art. 139-A CTB</descricao>
+    <amparo>244, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>358</id>
+    <codigo>755-22</codigo>
+    <descricao>Conduzir motoc moton efet transp remun desac normas ativid profic mototaxistas</descricao>
+    <amparo>244, IX</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>359</id>
+    <codigo>711-00</codigo>
+    <descricao>Conduzir ciclo transportando passageiro fora da garupa assento a ele destinado</descricao>
+    <amparo>244, par 1, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>360</id>
+    <codigo>712-91</codigo>
+    <descricao>Conduzir ciclo via de trans rapido ou RODia salvo se houver acostam fx propria</descricao>
+    <amparo>244, par 1, b</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>361</id>
+    <codigo>713-70</codigo>
+    <descricao>Conduzir ciclo transportando crianca s condicao de cuidar propria seguranca</descricao>
+    <amparo>244, par 1, c</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>362</id>
+    <codigo>712-92</codigo>
+    <descricao>Conduzir ciclomotor em via de transito rapido</descricao>
+    <amparo>244, par 2</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>363</id>
+    <codigo>712-93</codigo>
+    <descricao>Conduzir ciclomotor em RODia salvo se houver acostamento ou faixa propria</descricao>
+    <amparo>244, par 2</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>364</id>
+    <codigo>714-50</codigo>
+    <descricao>Utilizar a via para deposito de mercadorias, materiais ou equipamentos</descricao>
+    <amparo>245</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Grave</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>365</id>
+    <codigo>715-31</codigo>
+    <descricao>Deixar de sinalizar obstaculo a circulacao seguranca calcada pista-s agravamento</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>366</id>
+    <codigo>715-32</codigo>
+    <descricao>Obstaculizar a via indevidamente-s agravamento</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>367</id>
+    <codigo>716-11</codigo>
+    <descricao>Deixar de sinalizar obstaculo circulacao seguranca calcada pista-agravamento 2X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 2X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>368</id>
+    <codigo>716-12</codigo>
+    <descricao>Obstaculizar a via indevidamente-agravamento 2X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 2X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>369</id>
+    <codigo>717-01</codigo>
+    <descricao>Deixar de sinalizar obstaculo circulacao seguranca calcada pista-agravamento 3X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>370</id>
+    <codigo>717-02</codigo>
+    <descricao>Obstaculizar a via indevidamente-agravamento 3X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 3X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>371</id>
+    <codigo>718-81</codigo>
+    <descricao>Deixar de sinalizar obstaculo circulacao seguranca calcada pista-agravamento 4X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 4X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>372</id>
+    <codigo>718-82</codigo>
+    <descricao>Obstaculizar a via indevidamente-agravamento 4X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 4X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>373</id>
+    <codigo>719-61</codigo>
+    <descricao>Deixar de sinalizar obstaculo circulacao seguranca calcada pista-agravamento 5X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>374</id>
+    <codigo>719-62</codigo>
+    <descricao>Obstaculizar a via indevidamente-agravamento 5X</descricao>
+    <amparo>246</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss 5X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>375</id>
+    <codigo>720-01</codigo>
+    <descricao>Deixar de conduzir pelo bordo pista em fila unica veic tracao propulsao humana</descricao>
+    <amparo>247</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>376</id>
+    <codigo>720-02</codigo>
+    <descricao>Deixar de conduzir pelo bordo da pista em fila unica veiculo de tracao animal</descricao>
+    <amparo>247</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>377</id>
+    <codigo>721-80</codigo>
+    <descricao>Transportar em veic destinado transp passageiros carga excedente desac art. 109</descricao>
+    <amparo>248</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>5 - Grave</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>378</id>
+    <codigo>722-61</codigo>
+    <descricao>Deixar de manter acesas a noite as luzes posicao qdo o veiculo estiver parado</descricao>
+    <amparo>249</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>379</id>
+    <codigo>722-62</codigo>
+    <descricao>Deixar de manter acesas a noite as luzes de posicao veic fazendo carga descarg a</descricao>
+    <amparo>249</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>380</id>
+    <codigo>723-40</codigo>
+    <descricao>Em movimento, deixar de manter acesa a luz baixa durante a noite</descricao>
+    <amparo>250, I, a</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>381</id>
+    <codigo>724-20</codigo>
+    <descricao>Em movimento de dia, deixar de manter acesa luz baixa tunel com iluminacao publ</descricao>
+    <amparo>250, I, b</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>382</id>
+    <codigo>724-21</codigo>
+    <descricao>Em movimento de dia, deixar de manter acesa luz baixa tunel com iluminacao publ</descricao>
+    <amparo>250, I, b</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>383</id>
+    <codigo>724-22</codigo>
+    <descricao>Em movimento de dia, deixar de manter acesa luz baixa nas RODias</descricao>
+    <amparo>250, I, b</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>384</id>
+    <codigo>725-00</codigo>
+    <descricao>Em mov, deixar de manter acesa luz baixa veic transp coletivo faixa pista excl</descricao>
+    <amparo>250, I, c</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>385</id>
+    <codigo>726-90</codigo>
+    <descricao>Em movimento, deixar de manter acesa luz baixa do ciclomotor</descricao>
+    <amparo>250, I, d</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>386</id>
+    <codigo>727-70</codigo>
+    <descricao>Em mov deixar de manter acesas luzes de posicao sob chuva forte neblina cerracao</descricao>
+    <amparo>250, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>387</id>
+    <codigo>728-50</codigo>
+    <descricao>Em movimento, deixar de manter a placa traseira iluminada a noite</descricao>
+    <amparo>250, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>388</id>
+    <codigo>729-30</codigo>
+    <descricao>Utilizar o pisca-alerta, exceto em imobilizacoes ou situacoes de emergencia</descricao>
+    <amparo>251, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>389</id>
+    <codigo>730-70</codigo>
+    <descricao>Utilizar luz alta e baixa intermitente, exceto quando permitido pelo CTB</descricao>
+    <amparo>251, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>390</id>
+    <codigo>731-50</codigo>
+    <descricao>Dirigir o veiculo com o braco do lado de fora</descricao>
+    <amparo>252, I</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>391</id>
+    <codigo>732-31</codigo>
+    <descricao>Dirigir o veiculo transport pessoas a sua esquerda ou entre os bracos e pernas</descricao>
+    <amparo>252, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>392</id>
+    <codigo>732-32</codigo>
+    <descricao>Dirigir o veiculo transport animais a sua esquerda ou entre os bracos e pernas</descricao>
+    <amparo>252, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>393</id>
+    <codigo>732-33</codigo>
+    <descricao>Dirigir o veiculo transport volume a sua esquerda ou entre os bracos e pernas</descricao>
+    <amparo>252, II</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>394</id>
+    <codigo>733-10</codigo>
+    <descricao>Dirigir o veiculo com incapacidade fisica ou mental temporaria</descricao>
+    <amparo>252, III</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>395</id>
+    <codigo>734-00</codigo>
+    <descricao>Dirigir o veic usando calcado que Nao se firme nos pes comprometa utiliz pedais</descricao>
+    <amparo>252, IV</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>396</id>
+    <codigo>735-80</codigo>
+    <descricao>Dirigir o veiculo com apenas uma das maos, exceto quando permitido pelo CTB</descricao>
+    <amparo>252, V</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>397</id>
+    <codigo>736-61</codigo>
+    <descricao>Dirigir o veiculo utilizando-se de fones nos ouvidos conec a aparelhagem sonora</descricao>
+    <amparo>252, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>398</id>
+    <codigo>736-62</codigo>
+    <descricao>Dirigir veiculo utilizando-se de telefone celular</descricao>
+    <amparo>252, VI</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>399</id>
+    <codigo>759-50</codigo>
+    <descricao>Dirigir veiculo realizando cobranca de tarifa com veiculo em movimento</descricao>
+    <amparo>252, VII</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Media</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>400</id>
+    <codigo>763-31</codigo>
+    <descricao>Dirigir veiculo segurando telefone celular</descricao>
+    <amparo>252, par unico</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>401</id>
+    <codigo>763-32</codigo>
+    <descricao>Dirigir veiculo manuseando telefone celular</descricao>
+    <amparo>252, par unico</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>402</id>
+    <codigo>737-40</codigo>
+    <descricao>Bloquear a via com veiculo</descricao>
+    <amparo>253</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>7 - Graviss</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>403</id>
+    <codigo>761-71</codigo>
+    <descricao>Usar qq veiculo para, delib, interromper circulacao na via sem aut do orgao</descricao>
+    <amparo>253-A</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 20X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>404</id>
+    <codigo>761 - 72</codigo>
+    <descricao>Usar qq veiculo para, delib, restringir circulacao na via sem aut do orgao</descricao>
+    <amparo>253-A</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 20X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>405</id>
+    <codigo>761 - 73</codigo>
+    <descricao>Usar qq veiculo para, delib, perturbar circulacao na via sem aut do orgao</descricao>
+    <amparo>253-A</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 20X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>406</id>
+    <codigo>760 - 90</codigo>
+    <descricao>Organizar a conduta prevista no caput do art. 253-A</descricao>
+    <amparo>253-A, par 1</amparo>
+    <infrator>1 PF ou PJ</infrator>
+    <gravidade>Graviss 60X</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>407</id>
+    <codigo>738-20</codigo>
+    <descricao>e proib ao pedestre permanecer andar pista, exceto p cruza-las onde permitido</descricao>
+    <amparo>254, I</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>408</id>
+    <codigo>739-01</codigo>
+    <descricao>e proibido ao pedestre cruzar pista de rolamento de viaduto exc onde permitido</descricao>
+    <amparo>254, II</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>409</id>
+    <codigo>739-02</codigo>
+    <descricao>e proibido ao pedestre cruzar pista de rolamento de ponte exceto onde permitido</descricao>
+    <amparo>254, II</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>410</id>
+    <codigo>739-03</codigo>
+    <descricao>e proibido ao pedestre cruzar pista de rolamento de tuneis exceto onde permitido</descricao>
+    <amparo>254, II</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>411</id>
+    <codigo>740-40</codigo>
+    <descricao>e proib ao pedestre atravessar via area cruzamento exc onde permitido p sinaliz</descricao>
+    <amparo>254, III</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>412</id>
+    <codigo>741-20</codigo>
+    <descricao>e proib pedestre utilizar via em agrupam que perturbe trans prat esporte desfile</descricao>
+    <amparo>254, IV</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>413</id>
+    <codigo>742-01</codigo>
+    <descricao>e proibido ao pedestre andar fora da faixa propria</descricao>
+    <amparo>254, V</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>414</id>
+    <codigo>742-02</codigo>
+    <descricao>e proibido ao pedestre andar fora da passarela</descricao>
+    <amparo>254, V</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>- Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>415</id>
+    <codigo>742-03</codigo>
+    <descricao>e proibido ao pedestre andar fora da passagem aerea</descricao>
+    <amparo>254, V</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>416</id>
+    <codigo>742-04</codigo>
+    <descricao>e proibido ao pedestre andar fora da passagem subterranea</descricao>
+    <amparo>254, V</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>417</id>
+    <codigo>743-90</codigo>
+    <descricao>e proibido ao pedestre desobedecer a sinalizacao de transito especifica</descricao>
+    <amparo>254, VI</amparo>
+    <infrator>Pedestre</infrator>
+    <gravidade>3 - Leve 50</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>418</id>
+    <codigo>744-71</codigo>
+    <descricao>Conduzir bicicleta em passeios onde nao seja permitida a circulacao desta</descricao>
+    <amparo>255</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>419</id>
+    <codigo>744-72</codigo>
+    <descricao>Conduzir bicicleta de forma agressiva</descricao>
+    <amparo>255</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>4 - Media</gravidade>
+    <orgao>MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>420</id>
+    <codigo>500-20</codigo>
+    <descricao>Multa, por nao identificacao do condutor infrator, imposta a pessoa juridica</descricao>
+    <amparo>257, par 8</amparo>
+    <infrator>Proprietario</infrator>
+    <gravidade>---</gravidade>
+    <orgao>EST/MUN/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>421</id>
+    <codigo>757-90</codigo>
+    <descricao>Rec sub test, ex clin, peric ou proc q perm cert inflalc sub psic for art. 277</descricao>
+    <amparo>165-A</amparo>
+    <infrator>Condutor</infrator>
+    <gravidade>Graviss 10X</gravidade>
+    <orgao>EST/ROD</orgao>
+  </Infracao>
+  <Infracao>
+    <id>422</id>
+    <codigo>754-41</codigo>
+    <descricao>Falta de escrituracao livro registro entrada saida e de uso placa de experiencia</descricao>
+    <amparo>330, par 5</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>423</id>
+    <codigo>754-42</codigo>
+    <descricao>Atraso escrituracao livro registro entrada saida e de uso placa de experiencia</descricao>
+    <amparo>330, par 5</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>424</id>
+    <codigo>754-43</codigo>
+    <descricao>Fraude escrituracao livro registro entrada saida e de uso placa de experiencia</descricao>
+    <amparo>330, par 5</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+  <Infracao>
+    <id>425</id>
+    <codigo>754-44</codigo>
+    <descricao>Recusa da exibicao do livro registro entrada saida e de uso placa de experiencia</descricao>
+    <amparo>330, par 5</amparo>
+    <infrator>PF ou PJ</infrator>
+    <gravidade>Graviss</gravidade>
+    <orgao>EST</orgao>
+  </Infracao>
+</infracoes>
