@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="/templates/modelo.xhtml">
+
+    <ui:define name="conteudo">
+
+        <h:form id="form_infracao">   
+
+            <p:panel header="Lista - Infrações" >
+                <p:dataTable id = "dataTable" value="#{infracaoBean.listaObjetos}" var="infracao" 
+                             emptyMessage="Nenhum Registro Encotrado com esta pesquisa" paginator="true" paginatorPosition="top" rows="8" 
+                             paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}     {Exporters}" style="width: 1000px;margin: auto;font-size: 11pt;"><br />
+                    <f:facet name="header" >
+                        <p:commandButton value = "Novo" update=":form_dialagoInfracao" oncomplete="PF('dialago').show();" ></p:commandButton>
+                    </f:facet>
+                    <f:facet name="{Exporters}">  
+                        <div style="float:right">
+                            <h:commandLink>
+                                <p:graphicImage library="img" name="pdf.jpg" alt="Imprimir relatório" width="24"/>
+                                <p:dataExporter type="pdf" target="dataTable" fileName="notificacao" />
+                            </h:commandLink>
+                        </div>
+                    </f:facet>
+
+
+                    <p:column headerText="Cod" sortBy="#{infracao.codigo}" filterBy="#{infracao.codigo}" filterMatchMode="contains" width="120" style="text-align: center">
+                        <h:outputText value="#{infracao.codigo}" />
+                    </p:column>
+                    <p:column headerText="Descricao" sortBy="#{infracao.descricao}" filterBy="#{infracao.descricao}" filterMatchMode="contains">
+                        <h:outputText value="#{infracao.descricao}" />
+                    </p:column>
+                    <p:column headerText="Amparo" width="100">
+                        <h:outputText value="#{infracao.amparo}" />
+                    </p:column>
+                    <p:column headerText="Infrator" width="100">
+                        <h:outputText value="#{infracao.infrator}" />
+                    </p:column>
+                    <p:column headerText="Gravidade" width="100">
+                        <h:outputText value="#{infracao.gravidade}" />
+                    </p:column>
+                    <p:column headerText="Orgao" width="100">
+                        <h:outputText value="#{infracao.orgao}" />
+                    </p:column>
+
+                    <p:column headerText="" width="35" exportable="false" >
+                        <p:commandButton icon="ui-icon-pencil" oncomplete="PF('dialago').show();" action="#{infracaoBean.carregarDadosEditar(infracao)}" update=":form_dialagoInfracao:painel_dialago :form_infracao "></p:commandButton>
+                    </p:column>
+
+                    <f:facet name="footer">
+                        <h:outputText value="Existem " />
+                        <h:outputText value="#{fn:length(infracaoBean.listaObjetos)}" />
+                        <h:outputText value=" infracaos cadastradas. " />  
+                    </f:facet>
+
+                </p:dataTable>
+
+            </p:panel>
+        </h:form>
+
+        <p:dialog widgetVar="dialago" closable="false" modal="true" header="Controle de Infrações" resizable="false" draggable="true">
+            <h:form id="form_dialagoInfracao" enctype="multipart/form-data">
+                <p:panelGrid id="painel_dialago" columns="2">
+                    <p:outputLabel value="Codigo:" for="nome"/>
+                    <p:inputMask id="nome" mask="999-99" value="#{infracaoBean.infracao.codigo}" disabled="#{infracaoBean.infracao.id!=null}"/> 
+                    <p:outputLabel value="Descrição:"/> 
+                    <p:inputTextarea id="descricao" value="#{infracaoBean.infracao.descricao}" style="width: 500px;"/>
+                    <p:outputLabel value="Amparo:"/> 
+                    <p:inputText id="amparo" value="#{infracaoBean.infracao.amparo}"/>
+                    <p:outputLabel value="Infrator:"/> 
+                    <p:inputText id="infrator" value="#{infracaoBean.infracao.infrator}"/>
+                    <p:outputLabel value="Gravidade:"/> 
+                    <p:inputText id="gravidade" value="#{infracaoBean.infracao.gravidade}"/>
+                    <p:outputLabel value="Orgão:"/> 
+                    <p:inputText id="orgao" value="#{infracaoBean.infracao.orgao}"/>
+
+                </p:panelGrid>
+
+                <p:panelGrid columns="2">
+                    <p:commandButton value="Salvar" id="salvar" actionListener="#{infracaoBean.salvar()}" update=":form_infracao :mensagem :form_dialagoInfracao" >
+                        <p:confirm header="Confirmação" message="Confimar cadastro?" icon="ui-icon-alert" />
+                    </p:commandButton> 
+                    <p:commandButton value="Fechar" id="fechar" actionListener="#{infracaoBean.novo()}" oncomplete="PF('dialago').hide()" immediate="true" update=":form_infracao mensagem"/>
+                </p:panelGrid>
+
+                <p:confirmDialog global="true">
+                    <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+                    <p:commandButton value="Sim" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />        
+                </p:confirmDialog>
+
+            </h:form>
+
+        </p:dialog>
+    </ui:define>
+</ui:composition>
+

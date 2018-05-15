@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="/templates/modelo.xhtml">
+
+    <ui:define name="conteudo">
+
+        <h:form id="form_bloco">   
+
+
+            <p:panel header="Lista - Blocos" style="width: 1000px; margin: auto">
+                <p:dataTable widgetVar="tabelabloco" id = "dataTable" value="#{blocoBean.listaObjetos}" var="bloco"
+                             emptyMessage="Nenhum Registro Encotrado com esta pesquisa" paginator="true" paginatorPosition="top" rows="8"
+                             paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {Exporters}" style="font-size: 11pt; margin: auto;width: 960px"><br />
+                    <f:facet name="header" >
+                        <p:commandButton value = "Novo" update=":form_dialagoBloco" oncomplete="PF('dialago').show();" ></p:commandButton>
+                    </f:facet>
+                    <f:facet name="{Exporters}">  
+                        <div style="float:right">
+                            <h:commandLink actionListener="#{blocoBean.imprimir}" >
+                                <p:graphicImage library="img" name="pdf.jpg" alt="Imprimir relatório" width="24"  />
+                                <p:ajax update=":form_bloco:dataTable :mensagem"/>
+                            </h:commandLink>
+                        </div>
+                    </f:facet>
+                    <p:column style="width: 16px">
+                        <p:rowToggler/>
+                    </p:column>
+                    <p:column headerText="N. Bloco" width="45" style="text-align: center" sortBy="#{bloco.numeroBloco}" filterBy="#{bloco.numeroBloco}" 
+                              filterMatchMode="contains">
+                        <h:outputText value="#{bloco.numeroBloco}" />
+                    </p:column>
+                    <p:column headerText="Ìnicio Bloco" width="45" style="text-align: center" sortBy="#{bloco.numeroInicioBloco}" filterBy="#{bloco.numeroInicioBloco}" 
+                              filterMatchMode="contains">
+                        <h:outputText value="#{bloco.numeroInicioBloco}" />
+                    </p:column>
+                    <p:column headerText="Final Bloco" width="45" style="text-align: center" sortBy="#{bloco.numeroFinalBloco}" filterBy="#{bloco.numeroFinalBloco}" 
+                              filterMatchMode="contains">
+                        <h:outputText value="#{bloco.numeroFinalBloco}" />
+                    </p:column>
+                    <p:column headerText="Guarda" width="45" style="text-align: center" sortBy="#{bloco.guarda}" filterBy="#{bloco.guarda}" filterMatchMode="contains">
+                        <h:outputText value="#{bloco.guarda.nome}" />
+                    </p:column>
+
+                    <p:column headerText="Status" width="45" style="text-align: center" sortBy="#{bloco.statusBloco}" filterBy="#{bloco.statusBloco}" filterMatchMode="contains">
+                        <h:outputText value="#{bloco.statusBloco.nome}" />
+                    </p:column>
+
+                    <p:rowExpansion>
+                        <p:panel header="Lista - AITs" style="width:450px; margin:auto">
+                            <p:dataTable id = "dataTableItem" value="#{autoInfracaoBean.listaAits = bloco.listaAits}" var="item">
+                                <p:column headerText="Número AIT" style="text-align: center" >
+                                    <h:outputText value="#{item.numeroAit}" />
+                                </p:column>
+                                <p:column headerText="Status" style="text-align: center" >
+                                    <h:outputText value="#{item.statusAIT.nome}" />
+                                </p:column>
+                                <p:column headerText="" style="text-align: center" >
+                                    <p:commandButton icon="ui-icon-pencil" oncomplete="PF('dialagoAit').show();" action="#{autoInfracaoBean.carregarDadosEditar(item)}" update=":form_dialagoAit:painel_dialagoAit :form_bloco"></p:commandButton>
+                                </p:column>
+                                <f:facet name="footer">
+                                    <h:outputText value="Existem " />
+                                    <h:outputText value="#{fn:length(autoInfracaoBean.listaAits)}" />
+                                    <h:outputText value=" Aits cadastrados " />  
+                                </f:facet>
+                            </p:dataTable>
+                        </p:panel>
+
+                    </p:rowExpansion>
+
+                    <p:column headerText="" width="35" >
+                        <p:commandButton icon="ui-icon-pencil" oncomplete="PF('dialago').show();" actionListener="#{blocoBean.carregarDadosEditar(bloco)}" update=":form_dialagoBloco:painel_dialago :form_bloco "></p:commandButton>
+                    </p:column>
+
+                    <f:facet name="footer">
+                        <h:outputText value="Existem " />
+                        <h:outputText value="#{fn:length(blocoBean.listaObjetos)}" />
+                        <h:outputText value=" blocos cadastrados. " />  
+                    </f:facet>
+
+                </p:dataTable>
+
+            </p:panel>
+        </h:form>
+
+        <p:dialog widgetVar="dialago" position="center center" closable="false" modal="true" header="Controle de Blocos" resizable="false" draggable="true">
+            <h:form id="form_dialagoBloco" enctype="multipart/form-data">
+                <p:messages id="msg" autoUpdate="true"  />
+                <p:panelGrid id="painel_dialago" columns="2"> 
+                    <p:outputLabel value="N. Bloco" for="bloco"/> 
+                    <p:inputText id="bloco" required="true" requiredMessage="Insira o numero do BLOCO" value="#{blocoBean.bloco.numeroBloco}"/>
+                    <p:outputLabel value="N. Inicial do Bloco:" for="inicio"/>
+                    <p:inputText id="inicio" required="true" requiredMessage="Insira o número inicial do bloco!" value="#{blocoBean.bloco.numeroInicioBloco}">
+                        <p:ajax event="change" listener="#{blocoBean.verificar}" update="total"/>
+                    </p:inputText>
+                    
+                    <p:outputLabel value="N. Final do Bloco:" for="final"/> 
+                    <p:inputText id="final" required="true"                                
+                                 requiredMessage="Não deixe em branco" value="#{blocoBean.bloco.numeroFinalBloco}">
+                        <p:ajax event="change" listener="#{blocoBean.verificar}" update="total"/>
+                    </p:inputText>
+
+                    <p:outputLabel value="Total Ais a cadastrar:" for="total"/>
+                    <p:outputLabel value="#{blocoBean.totalAit}" id="total"/>
+
+                    <p:outputLabel value="Guarda: " for="comboboxGuarda"/> 
+                    <p:selectOneMenu filter="true" id="comboboxGuarda"  value="#{blocoBean.bloco.guarda}" required="true" requiredMessage="Selecione um Guarda!" converter="guardaConverter">
+                        <f:selectItem itemLabel="Selecione um Guarda" />
+                        <f:selectItems value="#{blocoBean.guardas}"  var="Guarda" itemValue="#{Guarda}" itemLabel="#{Guarda.nome}"/>       
+                    </p:selectOneMenu>
+                    <p:outputLabel value="Data: " for="german"/> 
+                    <p:calendar id="german" pattern="dd/MM/yyyy" locale="pt_BR" navigator="true" showButtonPanel="true" value="#{blocoBean.bloco.dataCadastro}"/>
+                    <p:outputLabel value="Status: " /> 
+                    <p:selectOneMenu id="combobox_status"  value="#{blocoBean.bloco.statusBloco}" >
+                        <f:selectItem itemLabel="Selecione um Status" />
+                        <f:selectItems value="#{blocoBean.statusBloco}"  var="status" itemValue="#{status}" itemLabel="#{status.nome}"/>           
+                    </p:selectOneMenu>
+
+
+                </p:panelGrid>
+
+                <p:panelGrid columns="2">
+                    <p:commandButton value="Salvar" id="salvar" actionListener="#{blocoBean.salvar()}" update=":form_bloco:dataTable  :form_dialagoBloco" >
+                        <p:confirm header="Confirmação" message="Confimar cadastro?" icon="ui-icon-alert" />
+                    </p:commandButton> 
+                    <p:commandButton value="Fechar" id="fechar" actionListener="#{blocoBean.novo()}" oncomplete="PF('dialago').hide()" immediate="true" update=":form_bloco mensagem"/>
+                </p:panelGrid>
+
+                <p:confirmDialog global="true" >
+                    <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+                    <p:commandButton value="Sim" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />        
+                </p:confirmDialog>
+
+            </h:form>
+
+        </p:dialog>
+
+
+
+        <p:dialog widgetVar="dialagoAit" position="center center" closable="false" modal="true" header="Controle de Auto Infrações Trânsito" resizable="false" draggable="true">
+            <h:form id="form_dialagoAit" enctype="multipart/form-data">
+                <p:panelGrid id="painel_dialagoAit" columns="2"> 
+                    <p:outputLabel value="N. AIT" for="ait"/> 
+                    <p:outputLabel id="ait" value="#{autoInfracaoBean.autoInfracao.numeroAit}"/>
+                    <p:outputLabel value="Placa:" for="placa"/>
+                    <p:inputMask id="placa" mask="aaa-9999" style="text-transform: uppercase" required="true" requiredMessage="Insira uma placa!" value="#{autoInfracaoBean.autoInfracao.placa}"/>
+                    <p:outputLabel value="Data: " for="german"/> 
+                    <p:calendar id="german" pattern="dd/MM/yyyy" locale="pt_BR" navigator="true" showButtonPanel="true" value="#{autoInfracaoBean.autoInfracao.data}"/>
+                    <p:outputLabel value="Hora" for="hora"/> 
+                    <p:calendar id="hora" 
+                                pattern="HH:mm" 
+                                value="#{autoInfracaoBean.autoInfracao.hora}" 
+                                title="Início" 
+                                showOn="button" />
+                    <p:outputLabel value="Infração: " for="comboboxInfracao"/> 
+                    <p:selectOneMenu filter="true" filterMatchMode="contains"  id="comboboxInfracao"  value="#{autoInfracaoBean.autoInfracao.infracao}" required="true" requiredMessage="Selecione uma infracao!" converter="infracaoConverter">
+                        <f:selectItem itemLabel="Selecione uma Infração" />
+                        <f:selectItems value="#{autoInfracaoBean.infracoes}"  var="Infracao" itemValue="#{Infracao}" itemLabel="#{Infracao.codigo} - #{Infracao.descricao}"/>       
+                    </p:selectOneMenu>
+                    <p:outputLabel value="Local: " for="comboboxEndereco"/> 
+                    <p:selectOneMenu filter="true" id="comboboxEndereco"  value="#{autoInfracaoBean.autoInfracao.endereco}" required="true" requiredMessage="Selecione um endereco!" converter="enderecoConverter">
+                        <f:selectItem itemLabel="Selecione um Local" />
+                        <f:selectItems value="#{autoInfracaoBean.enderecos}"  var="Endereco" itemValue="#{Endereco}" itemLabel="#{Endereco.logradouro} , Bairro #{Endereco.bairro.nome}"/>       
+                    </p:selectOneMenu>
+                    <p:outputLabel value="N. Referência" for="referencia"/> 
+                    <p:inputText id="referencia" value="#{autoInfracaoBean.autoInfracao.numeroReferencia}"/>
+                    <p:outputLabel value="Status: " /> 
+                    <p:selectOneMenu id="combobox_status"  value="#{autoInfracaoBean.autoInfracao.statusAIT}" >
+                        <f:selectItem itemLabel="Selecione um Status" />
+                        <f:selectItems value="#{autoInfracaoBean.statusAIT}"  var="status" itemValue="#{status}" itemLabel="#{status.nome}"/>           
+                    </p:selectOneMenu>
+
+                    <p:outputLabel value="Recebido pelo Guarda: " for="comboboxGuardaRecebedor"/> 
+                    <p:selectOneMenu filter="true" id="comboboxGuardaRecebedor"  value="#{autoInfracaoBean.autoInfracao.guardaRecebedor}" required="true" requiredMessage="Selecione um Guarda!" converter="guardaConverter">
+                        <f:selectItem itemLabel="Selecione um Guarda" />
+                        <f:selectItems value="#{autoInfracaoBean.guardas}"  var="Guarda" itemValue="#{Guarda}" itemLabel="#{Guarda.nome}"/>       
+                    </p:selectOneMenu>
+                    <p:outputLabel value="Data Recebimento Ait: " for="germann"/> 
+                    <p:calendar id="germann" pattern="dd/MM/yyyy" locale="pt_BR" navigator="true" showButtonPanel="true" value="#{autoInfracaoBean.autoInfracao.dataEntrega}"/>
+
+
+                </p:panelGrid>
+
+                <p:panelGrid columns="2">
+                    <p:commandButton value="Salvar" id="salvar" actionListener="#{autoInfracaoBean.salvar()}" oncomplete="PF('dialagoAit').hide()" update=":form_bloco:dataTable :form_dialagoAit :mensagem">
+                        <p:confirm header="Confirmação" message="Confimar cadastro?" icon="ui-icon-alert" />
+                    </p:commandButton> 
+                    <p:commandButton value="Fechar" id="fechar" oncomplete="PF('dialagoAit').hide()"  immediate="true" update=":form_bloco :form_dialagoAit :mensagem"/>
+                </p:panelGrid>
+
+                <p:confirmDialog global="true" >
+                    <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+                    <p:commandButton value="Sim" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />        
+                </p:confirmDialog>
+
+            </h:form>
+
+        </p:dialog>
+    </ui:define>
+</ui:composition>
+

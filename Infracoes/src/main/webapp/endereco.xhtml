@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="/templates/modelo.xhtml">
+
+    <ui:define name="conteudo">
+
+        <h:form id="form_endereco">   
+
+            <p:panel header="Lista - Enderecos" >
+                <p:dataTable id = "dataTable" value="#{enderecoBean.listaObjetos}" var="endereco"
+                             emptyMessage="Nenhum Registro Encotrado com esta pesquisa" paginator="true" 
+                             paginatorPosition="top" rows="9" 
+                             paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink}     {Exporters}" style="width: 1000px;margin: auto;font-size: 11pt;"><br />
+
+                    <f:facet name="header" >
+                        <p:commandButton value = "Novo" update=":form_dialagoEndereco" oncomplete="PF('dialago').show();" ></p:commandButton>
+                    </f:facet>
+
+                    <f:facet name="{Exporters}">  
+                        <div style="float:right">
+                            <h:commandLink>
+                                <p:graphicImage library="img" name="pdf.jpg" alt="Imprimir relatório" width="24"/>
+                                <p:dataExporter type="pdf" target="dataTable" fileName="endereco" />
+                            </h:commandLink>
+                        </div>
+                    </f:facet>
+                    <p:column headerText="Cep" sortBy="#{endereco.cep}" filterBy="#{endereco.cep}" filterMatchMode="contains" style="width: 120px;text-align: center">
+                        <h:outputText value="#{endereco.cep}" />
+                    </p:column>
+                    <p:column headerText="Logadouro" sortBy="#{endereco.logradouro}" filterBy="#{endereco.logradouro}" filterMatchMode="contains">
+                        <h:outputText value="#{endereco.logradouro}" />
+                    </p:column>
+                    <p:column headerText="Bairro" sortBy="#{endereco.bairro.nome}" filterBy="#{endereco.bairro.nome}" filterMatchMode="contains" style="width: 300px;text-align: center">
+                        <h:outputText value="#{endereco.bairro.nome}" />
+                    </p:column>
+
+                    <p:column headerText="" width="35" exportable="false">
+                        <p:commandButton icon="ui-icon-pencil" oncomplete="PF('dialago').show();" action="#{enderecoBean.carregarDadosEditar(endereco)}" update=":form_dialagoEndereco:painel_dialago :form_endereco "></p:commandButton>
+                    </p:column>
+
+                    <f:facet name="footer">
+                        <h:outputText value="Existem " />
+                        <h:outputText value="#{fn:length(enderecoBean.listaObjetos)}" />
+                        <h:outputText value=" enderecos cadastrados. " />  
+                    </f:facet>
+
+                </p:dataTable>
+
+            </p:panel>
+        </h:form>
+
+        <p:dialog widgetVar="dialago" closable="false" modal="true" header="Controle de Enderecos" resizable="false" draggable="true">
+            <h:form id="form_dialagoEndereco" enctype="multipart/form-data">
+                <p:panelGrid id="painel_dialago" columns="2">
+                    <p:outputLabel value="Cep:" for="cep"/>
+                    <p:inputMask id="cep" mask="99999-999" required="true" requiredMessage="Insira um cep!" 
+                                 value="#{enderecoBean.endereco.cep}" disabled="#{enderecoBean.endereco.id!=null}"/> 
+                    <p:outputLabel value="Logradouro:" for="logradouro"/> 
+                    <p:inputTextarea id="logradouro" value="#{enderecoBean.endereco.logradouro}" style="width: 500px;"
+                                     required="true" requiredMessage="Insira um logradouro!"/>
+                    <p:outputLabel value="Bairro: " for="comboboxBairro"/> 
+                    <p:selectOneMenu filter="true" id="comboboxBairro"  value="#{enderecoBean.endereco.bairro}" required="true" requiredMessage="Selecione um bairro!" converter="bairroConverter">
+                        <f:selectItem itemLabel="Selecione um Bairro" />
+                        <f:selectItems value="#{enderecoBean.bairros}"  var="Bairro" itemValue="#{Bairro}" itemLabel="#{Bairro.nome}"/>       
+                    </p:selectOneMenu>
+                </p:panelGrid>
+
+                <p:panelGrid columns="2">
+                    <p:commandButton value="Salvar" id="salvar" actionListener="#{enderecoBean.salvar()}" update=":form_endereco :mensagem :form_dialagoEndereco" >
+                        <p:confirm header="Confirmação" message="Confimar cadastro?" icon="ui-icon-alert" />
+                    </p:commandButton> 
+                    <p:commandButton value="Fechar" id="fechar" actionListener="#{enderecoBean.novo()}" oncomplete="PF('dialago').hide()" immediate="true" update=":form_endereco mensagem"/>
+                </p:panelGrid>
+
+                <p:confirmDialog global="true" >
+                    <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+                    <p:commandButton value="Sim" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />        
+                </p:confirmDialog>
+
+            </h:form>
+
+        </p:dialog>
+    </ui:define>
+</ui:composition>
+

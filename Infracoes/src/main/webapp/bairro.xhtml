@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="/templates/modelo.xhtml">
+
+    <ui:define name="conteudo">
+
+        <h:form id="form_bairro">   
+
+            <p:panel header="Lista - Bairros" style="width: 600px; margin:auto">
+                <p:dataTable id = "dataTable" value="#{bairroBean.listaObjetos}" var="bairro"
+                             emptyMessage="Nenhum Registro Encotrado com esta pesquisa" paginator="true" paginatorPosition="top" rows="8" style="font-size: 11pt;"><br />
+                    <f:facet name="header" >
+                        <p:commandButton value = "Novo" update=":form_dialagoBairro" oncomplete="PF('dialago').show();" ></p:commandButton>
+                    </f:facet>
+                    <p:column headerText="Cód" sortBy="#{bairro.id}" width="120" style="text-align: center">
+                        <h:outputText value="#{bairro.id}" />
+                    </p:column>
+                    <p:column headerText="Bairro" sortBy="#{bairro.nome}" filterBy="#{bairro.nome}" filterMatchMode="contains">
+                        <h:outputText value="#{bairro.nome}" />
+                    </p:column>
+                    
+                    <p:column headerText="" width="35" >
+                        <p:commandButton icon="ui-icon-pencil" oncomplete="PF('dialago').show();" action="#{bairroBean.carregarDadosEditar(bairro)}" update=":form_dialagoBairro:painel_dialago :form_bairro "></p:commandButton>
+                    </p:column>
+
+                    <f:facet name="footer">
+                        <h:outputText value="Existem " />
+                        <h:outputText value="#{fn:length(bairroBean.listaObjetos)}" />
+                        <h:outputText value=" bairros cadastrados. " />  
+                    </f:facet>
+
+                </p:dataTable>
+
+            </p:panel>
+        </h:form>
+
+        <p:dialog widgetVar="dialago" closable="false" modal="true" header="Controle de Bairros" resizable="false" draggable="true">
+            <h:form id="form_dialagoBairro" enctype="multipart/form-data">
+                <p:panelGrid id="painel_dialago" columns="2">
+                    <p:outputLabel value="Codigo:" for="codigo"/>
+                    <p:inputText id="codigo" value="#{bairroBean.bairro.id}"/> 
+                    <p:outputLabel value="Bairro:" for="nome"/> 
+                    <p:inputText id="nome" required="true" requiredMessage="Insira um bairro" value="#{bairroBean.bairro.nome}"/>
+                    
+                </p:panelGrid>
+
+                <p:panelGrid columns="2">
+                    <p:commandButton value="Salvar" id="salvar" actionListener="#{bairroBean.salvar()}" update=":form_bairro :mensagem :form_dialagoBairro" >
+                        <p:confirm header="Confirmação" message="Confimar cadastro?" icon="ui-icon-alert" />
+                    </p:commandButton> 
+                    <p:commandButton value="Fechar" id="fechar" actionListener="#{bairroBean.novo()}" oncomplete="PF('dialago').hide()" immediate="true" update=":form_bairro mensagem"/>
+                </p:panelGrid>
+
+                <p:confirmDialog global="true" >
+                    <p:commandButton value="Não" type="button" styleClass="ui-confirmdialog-no" icon="ui-icon-close" />
+                    <p:commandButton value="Sim" type="button" styleClass="ui-confirmdialog-yes" icon="ui-icon-check" />        
+                </p:confirmDialog>
+
+            </h:form>
+
+        </p:dialog>
+    </ui:define>
+</ui:composition>
+

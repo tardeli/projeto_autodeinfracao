@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://xmlns.jcp.org/jsf/core"
+                xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+                xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+                template="/templates/modelo.xhtml">
+
+    <ui:define name="conteudo">
+
+        <h:form id="form_autoinfracao">   
+
+            <p:panel header="Lista - Notificacões">
+                <p:dataTable widgetVar="tabelaautoinfracao" id = "dataTable" value="#{autoInfracaoBean.listaAits}" var="autoinfracao"
+                             emptyMessage="Nenhum Registro Encotrado com esta pesquisa" paginator="true" paginatorPosition="top" rows="10"
+                             paginatorTemplate="{CurrentPageReport}  {FirstPageLink} {PreviousPageLink} {PageLinks} {NextPageLink} {LastPageLink} {Exporters}" style="font-size: 11pt;"><br />
+                    
+                    <f:facet name="{Exporters}">  
+                        <div style="float:right">
+                            <h:commandLink actionListener="#{autoInfracaoBean.imprimir}" >
+                                <p:graphicImage library="img" name="pdf.jpg" alt="Imprimir relatório" width="24"  />
+                                <p:ajax update=":form_autoinfracao:dataTable :mensagem"/>
+                            </h:commandLink>
+                        </div>
+                    </f:facet>
+                    
+                    <p:column headerText="Bloco" width="110" sortBy="#{autoinfracao.bloco.numeroBloco}" filterBy="#{autoinfracao.bloco.numeroBloco}" 
+                              filterMatchMode="contains">
+                        <h:outputText value="#{autoinfracao.bloco.numeroBloco}" />
+                    </p:column>
+                    
+                    <p:column headerText="Notificacao" width="110" sortBy="#{autoinfracao.numeroAit}" filterBy="#{autoinfracao.numeroAit}" 
+                              filterMatchMode="contains">
+                        <h:outputText value="#{autoinfracao.numeroAit}" />
+                    </p:column>
+                    <p:column headerText="Data: "
+                              sortBy="#{autoinfracao.data}" 
+                              filterBy="#{autoinfracao.data}" 
+                              filterFunction="#{autoInfracaoBean.filterByDate}"              
+                              style="text-align: center;  width: 270px;"
+                             
+                              >
+                        
+
+                            <f:facet name="filter">
+                                <h:inputHidden id="filter"/>
+                            </f:facet>
+
+                            <f:facet name="header" >
+                                
+                                <h:outputText value="Data"/><br/>
+                                <h:outputLabel value="De: "/>
+                                <p:calendar  id="from" pattern="dd/MM/yyyy" locale="pt_BR" navigator="true" showButtonPanel="true" styleClass="calendario">
+                                    <p:ajax event="dateSelect" onstart="$(PrimeFaces.escapeClientId('#{p:component('filter')}'))[0].value = $(PrimeFaces.escapeClientId('#{p:component('from')}_input'))[0].value + '-' + $(PrimeFaces.escapeClientId('#{p:component('to')}_input'))[0].value" oncomplete="PF('tabelaautoinfracao').filter()"/>
+                                </p:calendar>
+                                <h:outputLabel value=" Até: "/>
+                                <p:calendar id="to" pattern="dd/MM/yyyy" navigator="true" showButtonPanel="true" styleClass="calendario">
+                                    <p:ajax event="dateSelect" onstart="$(PrimeFaces.escapeClientId('#{p:component('filter')}'))[0].value = $(PrimeFaces.escapeClientId('#{p:component('from')}_input'))[0].value + '-' + $(PrimeFaces.escapeClientId('#{p:component('to')}_input'))[0].value" oncomplete="PF('tabelaautoinfracao').filter()"/>
+                                </p:calendar>
+                            </f:facet>
+                        
+                            <h:outputText value="#{autoinfracao.data}" >
+                                <f:convertDateTime pattern="dd/MM/yyyy"/>
+                            </h:outputText>
+                        
+                    </p:column>
+
+                    <p:column headerText="Hora" width="40">
+                        <h:outputText value="#{autoinfracao.hora}">
+                            <f:convertDateTime pattern="HH:mm"/>
+                        </h:outputText>
+                    </p:column>
+                    <p:column headerText="Placa" filterStyle="max-width: 70px; min-width: 70px;" style="text-align: center; width: 90px;" sortBy="#{autoinfracao.placa}" filterBy="#{autoinfracao.placa}" filterMatchMode="contains">
+                        <h:outputText value="#{autoinfracao.placa}" style="text-transform: uppercase;" />
+                    </p:column>
+                    <p:column headerText="Infracao" filterStyle="max-width: 70px; min-width: 70px;" style="text-align: center; width: 90px;" sortBy="#{autoinfracao.infracao}" filterBy="#{autoinfracao.infracao}" filterMatchMode="contains">
+                        <h:outputText value="#{autoinfracao.infracao.codigo}" />
+                    </p:column>
+                    <p:column headerText="Local" sortBy="#{autoinfracao.endereco}" filterBy="#{autoinfracao.endereco}" filterMatchMode="contains">
+                        <h:outputText value="#{autoinfracao.endereco.logradouro}" />
+                    </p:column>
+                    <p:column headerText="Guarda" width="110" sortBy="#{autoinfracao.bloco.guarda.nome}" filterBy="#{autoinfracao.bloco.guarda.nome}" filterMatchMode="contains">
+                        <h:outputText value="#{autoinfracao.bloco.guarda.nome}" />
+                    </p:column>
+
+                    <p:column headerText="" width="35" >
+                        <p:commandButton icon="ui-icon-pencil" oncomplete="PF('dialago').show();" action="#{autoInfracaoBean.carregarDadosEditar(autoinfracao)}" update=":form_autoinfracao "></p:commandButton>
+                    </p:column>
+
+                    <f:facet name="footer">
+                        <h:outputText value="Existem " />
+                        <h:outputText value="#{fn:length(autoInfracaoBean.listaAits)}" />
+                        <h:outputText value=" autoinfracaos cadastrados. " />  
+                    </f:facet>
+
+                </p:dataTable>
+
+            </p:panel>
+        </h:form>
+
+    </ui:define>
+</ui:composition>
+
